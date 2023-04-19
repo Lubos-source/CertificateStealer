@@ -1,0 +1,13 @@
+*DISCLAIMER*
+===============================================================================
+The information contained here is for learning and information purposes only. 
+The owner and authors of Code (app) assume no responsibility for errors or omissions in the contents.
+
+In no event shall Code be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence, or other torts, arising out of or in connection with the use of the code. 
+Code reserves the right to make additions, deletions, or modifications to the contents on the source of code at any time without prior notice.
+
+Educational Purposes Disclaimer
+
+The information provided by Code is for educational purposes only and should not be construed as professional advice. 
+While the authors strive to provide accurate and up-to-date information, they make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the information, products, services, or related graphics contained on the code (app) for any purpose.
+===============================================================================
