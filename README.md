@@ -34,3 +34,8 @@ expanded:
 - transport (send) exported(stolen) certificates to hacker (email, google drive, network,...) - try to HIDE it !
 - exported certificates protect with password (easiest, widnows, in exporting phase set password) or some other techniques - to not be used by someone else (encrypt canal which we use to send them)
 
+IMPORTANT experience gained after research:
+------
+Dont use Python (just Mimikatz is good), it can be used but just for calling powershell functions. So instead of python use POWERSHELL ?
+
+Personal certificates are stored in `dir cert:\currentuser\my` , you can list them and then export.
