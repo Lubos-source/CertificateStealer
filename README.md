@@ -20,3 +20,17 @@ TO DO:
 - Final tests.                                                          ❌
 - .....
 
+
+Rewriten audio :
+------
+- certificates in operating systems (certmgr) - target on Personal certificates
+- create malware which exports certificate WITH PRIVATE KEY ! (automaticaly) it can be circumvent by some techniques
+
+minimal:
+
+- automatic export of Personal certificates with PRIVATE KEYs
+
+expanded:
+- transport (send) exported(stolen) certificates to hacker (email, google drive, network,...) - try to HIDE it !
+- exported certificates protect with password (easiest, widnows, in exporting phase set password) or some other techniques - to not be used by someone else (encrypt canal which we use to send them)
+
