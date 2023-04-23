@@ -44,3 +44,9 @@ powershell almost like our exercise:
 https://stackoverflow.com/questions/43799755/export-certificate-with-private-key-including-all-certificates-in-path-using-pow
 
 +export with private key, password protection,
+-----------
+-----------
+obfuscation powershell script(online):
+https://enscrypt.io/powershell-obfuscator-code-protection.php
+-----------
+-----------
