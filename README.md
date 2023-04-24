@@ -10,8 +10,8 @@ TO DO:
 ------
 - Cut audio record of project specifications to just this project.      ✅
 - Make UML diagrams of program (UseCase diagram, Class diagram).        ❌
-- Do research about certificates (storing, extracting, types,...).      ❌
-- Make first testing version of program extracting certificates.        ❌
+- Do research about certificates (storing, extracting, types,...).      ✅
+- Make first testing version of program extracting certificates.        ✅
 - Debug the first version.                                              ❌
 - Rebuild program, upgrade version.                                     ❌
 - Hide code (deobfuscate code).                                         ❌
@@ -36,6 +36,16 @@ expanded:
 
 IMPORTANT experience gained after research:
 ------
-Dont use Python (just Mimikatz is good), it can be used but just for calling powershell functions. So instead of python use POWERSHELL ?
+Dont use Python (just Mimikatz is good for this job), it can be used but just for calling powershell functions. So instead of python use POWERSHELL ?
 
-Personal certificates are stored in `dir cert:\currentuser\my` , you can list them and then export.
+Personal certificates are stored in `dir cert:\currentuser\my` , you can list them and then export with easy powershell script, but certificates must have flag "exportable" otherwise they canot be exported with this method. In the other words certificates marked as NonExportable canot be exported through powershell function `Export-PfxCertificate`, so we have to use another method.
+
+You can also find certificates in `%SystemDrive%\Documents and Settings\All Users\Application Data\Microsoft\Crypto\RSA\MachineKeys` and in registry `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\My\Certificates`, from registry you can export it and then on another computer modify registry to import certificate, but it canot be use to signing. It is possible to repair these imports with poweshell command `certutil -repairstore my <certificate-fingerprint>` - *NOT TESTED*.
+
+Because we want export private keys too, we can use `Mimikatz` for exporting certificates with private keys, but it is detected by antiviruses.
+
+So second option is to dump the private key from memory of running computer by ourself. There is one project on github which already did it [github](https://github.com/luipir/ExportNotExportablePrivateKey) + for corectly working we need to get [vcredist_x86_2010.exe](https://www.microsoft.com/en-us/download/details.aspx?id=26999) for compiling `exportrsa/Release/exportrsa.exe`.
+
+TESTED, worked + exported certificate is secured with password. - ideal state
+
+FUTURE: Try to analyze code, modify and edit for our use.

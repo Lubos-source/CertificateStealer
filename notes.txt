@@ -6,7 +6,7 @@ https://attack.mitre.org/techniques/T1649/
 Mimikatz can export certificate and dump passwords from memory.
 -----------
 -----------
-.NET tool for certificate stealer without touching disk:
+.NET tool for certificate stealer without touching disk: (for no exportable have to use Mimikatz to allow exporting)
 https://github.com/TheWover/CertStealer
 -----------
 -----------
@@ -25,14 +25,6 @@ https://stackoverflow.com/questions/55643219/how-to-export-certificate-on-window
 Code is in answer, maybe use just powershell script, rewrite it and hide it ?
 -----------
 -----------
-POWERSHELL:
-https://stackoverflow.com/questions/61632595/export-certificate-using-powershell
-simple list certificates:
-dir cert:\currentuser\my
------------------------
-more listing, ready filters:
-dir cert:\currentuser\my | Where-Object {($_.Extensions)} | Select-Object{ $_.SerialNumber, $_.Issuer, ($_.Extensions).KeyUsages }
-
 exporting certificate(no private key):
 https://learn.microsoft.com/en-us/powershell/module/pki/export-certificate?view=windowsserver2022-ps
 To export with private key use  `Export-PfxCertificate`
@@ -43,10 +35,28 @@ https://www.yuenx.com/2022/certificate-security-export-cert-with-non-exportable-
 powershell almost like our exercise:
 https://stackoverflow.com/questions/43799755/export-certificate-with-private-key-including-all-certificates-in-path-using-pow
 
-+export with private key, password protection,
++export with private key, password protection, (must be flaged as exportable)
 -----------
 -----------
 obfuscation powershell script(online):
 https://enscrypt.io/powershell-obfuscator-code-protection.php
 -----------
 -----------
+
+Create your own singed certificate for testing:
+https://getacert.com/selfsignedcert.html?ref=blog.passwork.pro
+
+export from registry(then import with double click on new PC-it imports private keys too):
+%SystemDrive%\Documents and Settings\All Users\Application Data\Microsoft\Crypto\RSA\MachineKeys
+sometimes:
+C:\Documents and Settings\All Users\Application Data\Microsoft\Crypto\RSA\MachineKeys
+For using imported certificates from registry we must repair them with powershell command:
+ certutil -repairstore my <certificate-fingerprint>
+ 
+-------------------------------
+-------------------------------
+C++ exporting certificates (get private keys from memory) working (with password protecting exported cert.):
+https://github.com/luipir/ExportNotExportablePrivateKey
++
+vcredist_x86_2010.exe
+https://www.microsoft.com/en-us/download/details.aspx?id=26999
