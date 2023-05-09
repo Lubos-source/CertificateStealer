@@ -1,27 +1,27 @@
 From: <Saved by Blink>
-Snapshot-Content-Location: https://chat.openai.com/?model=text-davinci-002-render-sha
+Snapshot-Content-Location: https://chat.openai.com/c/50bb2a4b-75ad-451a-b1fa-6e06f16d61a0
 Subject: Windows certificate program setup.
-Date: Tue, 9 May 2023 20:42:53 -0000
+Date: Tue, 9 May 2023 21:05:12 -0000
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----"
+	boundary="----MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----"
 
 
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: text/html
-Content-ID: <frame-9F8892549EA7862760A387ACF5310B1A@mhtml.blink>
+Content-ID: <frame-39F08841B0FCE5E90FE46E1B7198AD4E@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://chat.openai.com/?model=text-davinci-002-render-sha
+Content-Location: https://chat.openai.com/c/50bb2a4b-75ad-451a-b1fa-6e06f16d61a0
 
 <!DOCTYPE html><html class=3D"dark" style=3D"color-scheme: dark;"><head><me=
 ta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link=
- rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-df8f34b7-6441-4da6-a6=
-ff-498adc78021d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
-ref=3D"cid:css-c8a26959-d67d-4393-8fd4-3c47d4ce4c7a@mhtml.blink" /><link re=
-l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-bb802d71-3144-4a98-86b5-=
-bf7cacb8906f@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-1039ae01-7680-4890-967a-3f8a443f1af6@mhtml.blink" /><meta name=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-627f882d-622e-4e80-a3=
+cd-2c4ea774cc35@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
+ref=3D"cid:css-ecaef012-66c9-485a-8263-6e4375102b8d@mhtml.blink" /><link re=
+l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-0344f979-29b7-4443-99e2-=
+59c613339dbe@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-34a9deb6-2500-4e52-bff9-50258c5b8e0f@mhtml.blink" /><meta name=
 =3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1, user-scal=
 able=3Dno"><title>Windows certificate program setup.</title><meta name=3D"n=
 ext-head-count" content=3D"3"><link rel=3D"apple-touch-icon" sizes=3D"180x1=
@@ -42,264 +42,253 @@ hatGPT"><meta property=3D"og:image" content=3D"https://openai.com/content/i=
 mages/2022/11/ChatGPT.jpg"><meta property=3D"og:description" content=3D"A c=
 onversational AI system that listens, learns, and challenges"><meta propert=
 y=3D"og:url" content=3D"https://chat.openai.com"><link rel=3D"preload" href=
-=3D"https://chat.openai.com/_next/static/css/46d6a97156d5cf31.css" as=3D"st=
+=3D"https://chat.openai.com/_next/static/css/2f8fabb9a000fcfa.css" as=3D"st=
 yle"><link rel=3D"stylesheet" href=3D"https://chat.openai.com/_next/static/=
-css/46d6a97156d5cf31.css" data-n-g=3D""><meta name=3D"react-scroll-to-botto=
+css/2f8fabb9a000fcfa.css" data-n-g=3D""><meta name=3D"react-scroll-to-botto=
 m:version" content=3D"4.2.0"></head><body><div id=3D"__next"><div></div><di=
 v class=3D"overflow-hidden w-full h-full relative flex z-0"><div class=3D"d=
-ark flex-shrink-0 overflow-x-hidden bg-gray-900" style=3D"width: 260px;"><d=
-iv class=3D"h-full w-[260px]"><div class=3D"flex h-full min-h-0 flex-col ">=
-<div class=3D"scrollbar-trigger relative h-full w-full flex-1 items-start b=
-order-white/20"><nav class=3D"flex h-full w-full flex-col p-2"><a class=3D"=
-flex py-3 px-3 items-center gap-3 transition-colors duration-200 text-white=
- cursor-pointer text-sm rounded-md border border-white/20 hover:bg-gray-500=
-/10 mb-1 flex-shrink-0"><svg stroke=3D"currentColor" fill=3D"none" stroke-w=
-idth=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=
-=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://w=
-ww.w3.org/2000/svg"><line x1=3D"12" y1=3D"5" x2=3D"12" y2=3D"19"></line><li=
-ne x1=3D"5" y1=3D"12" x2=3D"19" y2=3D"12"></line></svg>New chat</a><div cla=
-ss=3D"absolute left-0 top-14 z-20 overflow-hidden transition-all duration-5=
-00 invisible max-h-0"><div class=3D"bg-gray-900 px-4 py-3"><div class=3D"p-=
-1 text-sm text-gray-100">Chat History is off.</div><div class=3D"p-1 text-x=
-s text-gray-500">Chats won=E2=80=99t be saved in your history or used for t=
-raining our models to improve ChatGPT. Unsaved chats will be deleted from o=
-ur systems within 30 days. <a href=3D"https://help.openai.com/en/articles/7=
-730893" target=3D"_blank" class=3D"underline" rel=3D"noreferrer">Learn more=
-</a></div><button class=3D"btn relative btn-primary mt-4 w-full"><div class=
-=3D"flex w-full gap-2 items-center justify-center"><svg stroke=3D"currentCo=
-lor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=
+ark flex-shrink-0 overflow-x-hidden bg-gray-900" data-projection-id=3D"23" =
+style=3D"width: 260px;"><div class=3D"h-full w-[260px]"><div class=3D"flex =
+h-full min-h-0 flex-col "><div class=3D"scrollbar-trigger relative h-full w=
+-full flex-1 items-start border-white/20"><nav class=3D"flex h-full w-full =
+flex-col p-2"><a class=3D"flex py-3 px-3 items-center gap-3 transition-colo=
+rs duration-200 text-white cursor-pointer text-sm rounded-md border border-=
+white/20 hover:bg-gray-500/10 mb-1 flex-shrink-0"><svg stroke=3D"currentCol=
+or" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=
 =3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=
-=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M18.36 6.64a9 9 0 =
-1 1-12.73 0"></path><line x1=3D"12" y1=3D"2" x2=3D"12" y2=3D"12"></line></s=
-vg>Enable chat history</div></button></div><div class=3D"h-24 bg-gradient-t=
-o-t from-gray-900/0 to-gray-900"></div></div><div class=3D"flex-col flex-1 =
-transition-opacity duration-500 overflow-y-auto"><div class=3D"flex flex-co=
-l gap-2 pb-2 text-gray-100 text-sm"><div><span><div class=3D"relative" data=
--projection-id=3D"1" style=3D"height: auto; opacity: 1;"><div class=3D"stic=
-ky top-0 z-[16]" data-projection-id=3D"21" style=3D"opacity: 1;"><div class=
-=3D"h-9 pb-2 pt-3 px-3 text-xs text-gray-500 font-medium text-ellipsis over=
-flow-hidden break-all bg-gray-900">Today</div></div><ol><li class=3D"relati=
-ve z-[15]" data-projection-id=3D"22" style=3D"opacity: 1; height: auto; ove=
-rflow: hidden;"><a class=3D"flex py-3 px-3 items-center gap-3 relative roun=
-ded-md cursor-pointer break-all )} pr-14 )} bg-gray-800 hover:bg-gray-800 g=
-roup animate-flash"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=
-=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"ro=
-und" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.=
-org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2=
- 0 0 1 2 2z"></path></svg><div class=3D"flex-1 text-ellipsis max-h-5 overfl=
-ow-hidden break-all relative">Windows certificate program setup.</div><div =
-class=3D"absolute flex right-1 z-10 text-gray-300 visible"><button class=3D=
-"p-1 hover:text-white"><svg stroke=3D"currentColor" fill=3D"none" stroke-wi=
-dth=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D=
-"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://www.=
-w3.org/2000/svg"><path d=3D"M12 20h9"></path><path d=3D"M16.5 3.5a2.121 2.1=
-21 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></button><button class=
-=3D"p-1 hover:text-white"><svg stroke=3D"currentColor" fill=3D"none" stroke=
--width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=
-=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://w=
-ww.w3.org/2000/svg"><polyline points=3D"3 6 5 6 21 6"></polyline><path d=3D=
-"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2=
- 2v2"></path><line x1=3D"10" y1=3D"11" x2=3D"10" y2=3D"17"></line><line x1=
-=3D"14" y1=3D"11" x2=3D"14" y2=3D"17"></line></svg></button></div></a></li>=
-</ol></div><div class=3D"relative" data-projection-id=3D"2" style=3D"height=
-: auto; opacity: 1; transform: none; transform-origin: 50% 50% 0px;"><div c=
-lass=3D"sticky top-0 z-[14]" data-projection-id=3D"3" style=3D"transform: n=
-one; transform-origin: 50% 50% 0px; opacity: 1;"><div class=3D"h-9 pb-2 pt-=
-3 px-3 text-xs text-gray-500 font-medium text-ellipsis overflow-hidden brea=
-k-all bg-gray-900">Previous 7 Days</div></div><ol><li class=3D"relative" da=
-ta-projection-id=3D"4" style=3D"opacity: 1; height: auto; transform: none; =
-transform-origin: 50% 50% 0px;"><a class=3D"flex py-3 px-3 items-center gap=
--3 relative rounded-md hover:bg-[#2A2B32] cursor-pointer break-all )} )} ho=
-ver:pr-4 bg-gray-900 group"><svg stroke=3D"currentColor" fill=3D"none" stro=
-ke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejo=
-in=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http:/=
-/www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-=
-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"flex-1 text-ellipsis max-h-=
-5 overflow-hidden break-all relative">Brainfuck IoT Analysis.<div class=3D"=
-absolute inset-y-0 right-0 w-8 z-10 bg-gradient-to-l from-gray-900 group-ho=
-ver:from-[#2A2B32]"></div></div></a></li><li class=3D"relative" data-projec=
-tion-id=3D"5" style=3D"opacity: 1; height: auto; transform: none; transform=
--origin: 50% 50% 0px;"><a class=3D"flex py-3 px-3 items-center gap-3 relati=
-ve rounded-md hover:bg-[#2A2B32] cursor-pointer break-all )} )} hover:pr-4 =
-bg-gray-900 group"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=
-=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"ro=
-und" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.=
-org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2=
- 0 0 1 2 2z"></path></svg><div class=3D"flex-1 text-ellipsis max-h-5 overfl=
-ow-hidden break-all relative">Python script for NC server communication<div=
- class=3D"absolute inset-y-0 right-0 w-8 z-10 bg-gradient-to-l from-gray-90=
-0 group-hover:from-[#2A2B32]"></div></div></a></li></ol></div><div class=3D=
-"relative" data-projection-id=3D"6" style=3D"height: auto; opacity: 1; tran=
-sform: none; transform-origin: 50% 50% 0px;"><div class=3D"sticky top-0 z-[=
-14]" data-projection-id=3D"7" style=3D"transform: none; transform-origin: 5=
-0% 50% 0px; opacity: 1;"><div class=3D"h-9 pb-2 pt-3 px-3 text-xs text-gray=
--500 font-medium text-ellipsis overflow-hidden break-all bg-gray-900">Previ=
-ous 30 Days</div></div><ol><li class=3D"relative" data-projection-id=3D"8" =
-style=3D"opacity: 1; height: auto; transform: none; transform-origin: 50% 5=
-0% 0px;"><a class=3D"flex py-3 px-3 items-center gap-3 relative rounded-md =
-hover:bg-[#2A2B32] cursor-pointer break-all )} )} hover:pr-4 bg-gray-900 gr=
-oup"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=
+=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><line x1=3D"12" y1=3D"5" x2=
+=3D"12" y2=3D"19"></line><line x1=3D"5" y1=3D"12" x2=3D"19" y2=3D"12"></lin=
+e></svg>New chat</a><div class=3D"absolute left-0 top-14 z-20 overflow-hidd=
+en transition-all duration-500 invisible max-h-0"><div class=3D"bg-gray-900=
+ px-4 py-3"><div class=3D"p-1 text-sm text-gray-100">Chat History is off.</=
+div><div class=3D"p-1 text-xs text-gray-500">Chats won=E2=80=99t be saved i=
+n your history or used for training our models to improve ChatGPT. Unsaved =
+chats will be deleted from our systems within 30 days. <a href=3D"https://h=
+elp.openai.com/en/articles/7730893" target=3D"_blank" class=3D"underline" r=
+el=3D"noreferrer">Learn more</a></div><button class=3D"btn relative btn-pri=
+mary mt-4 w-full"><div class=3D"flex w-full gap-2 items-center justify-cent=
+er"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=
 =3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"=
 h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg">=
-<path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"><=
-/path></svg><div class=3D"flex-1 text-ellipsis max-h-5 overflow-hidden brea=
-k-all relative">Django ORM for databases.<div class=3D"absolute inset-y-0 r=
-ight-0 w-8 z-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]">=
-</div></div></a></li></ol></div></span><span><div class=3D"relative" data-p=
-rojection-id=3D"9" style=3D"height: auto; opacity: 1; transform: none; tran=
-sform-origin: 50% 50% 0px;"><div class=3D"sticky top-0 z-[14]" data-project=
-ion-id=3D"10" style=3D"transform: none; transform-origin: 50% 50% 0px; opac=
-ity: 1;"><div class=3D"h-9 pb-2 pt-3 px-3 text-xs text-gray-500 font-medium=
- text-ellipsis overflow-hidden break-all bg-gray-900">April</div></div><ol>=
-<li class=3D"relative" data-projection-id=3D"11" style=3D"opacity: 1; heigh=
-t: auto; transform: none; transform-origin: 50% 50% 0px;"><a class=3D"flex =
-py-3 px-3 items-center gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-=
-pointer break-all )} )} hover:pr-4 bg-gray-900 group"><svg stroke=3D"curren=
-tColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linec=
-ap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" wid=
-th=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1=
--2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"f=
-lex-1 text-ellipsis max-h-5 overflow-hidden break-all relative">Argumenta=
-=C4=8Dn=C3=AD faul "argumentum ad populum"<div class=3D"absolute inset-y-0 =
-right-0 w-8 z-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"=
-></div></div></a></li></ol></div><div class=3D"relative" data-projection-id=
-=3D"12" style=3D"height: auto; opacity: 1; transform: none; transform-origi=
-n: 50% 50% 0px;"><div class=3D"sticky top-0 z-[14]" data-projection-id=3D"1=
-3" style=3D"transform: none; transform-origin: 50% 50% 0px; opacity: 1;"><d=
-iv class=3D"h-9 pb-2 pt-3 px-3 text-xs text-gray-500 font-medium text-ellip=
-sis overflow-hidden break-all bg-gray-900">March</div></div><ol><li class=
-=3D"relative" data-projection-id=3D"14" style=3D"opacity: 1; height: auto; =
-transform: none; transform-origin: 50% 50% 0px;"><a class=3D"flex py-3 px-3=
- items-center gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-pointer b=
-reak-all )} )} hover:pr-4 bg-gray-900 group"><svg stroke=3D"currentColor" f=
-ill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"rou=
-nd" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em=
-" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4=
- 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"flex-1 tex=
-t-ellipsis max-h-5 overflow-hidden break-all relative">Mana=C5=BEer Kyberne=
-tick=C3=A9 Bezpe=C4=8Dnosti.<div class=3D"absolute inset-y-0 right-0 w-8 z-=
-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"></div></div><=
-/a></li></ol></div><div class=3D"relative" data-projection-id=3D"15" style=
-=3D"height: auto; opacity: 1; transform: none; transform-origin: 50% 50% 0p=
-x;"><div class=3D"sticky top-0 z-[14]" data-projection-id=3D"16" style=3D"t=
-ransform: none; transform-origin: 50% 50% 0px; opacity: 1;"><div class=3D"h=
--9 pb-2 pt-3 px-3 text-xs text-gray-500 font-medium text-ellipsis overflow-=
-hidden break-all bg-gray-900">February</div></div><ol><li class=3D"relative=
-" data-projection-id=3D"17" style=3D"opacity: 1; height: auto; transform: n=
-one; transform-origin: 50% 50% 0px;"><a class=3D"flex py-3 px-3 items-cente=
-r gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-pointer break-all )} =
-)} hover:pr-4 bg-gray-900 group"><svg stroke=3D"currentColor" fill=3D"none"=
- stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-l=
-inejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"h=
-ttp://www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0=
- 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"flex-1 text-ellipsis m=
-ax-h-5 overflow-hidden break-all relative">AES Encryption Algorithm<div cla=
-ss=3D"absolute inset-y-0 right-0 w-8 z-10 bg-gradient-to-l from-gray-900 gr=
-oup-hover:from-[#2A2B32]"></div></div></a></li></ol></div><div class=3D"rel=
-ative" data-projection-id=3D"18" style=3D"height: auto; opacity: 1; transfo=
-rm: none; transform-origin: 50% 50% 0px;"><div class=3D"sticky top-0 z-[14]=
-" data-projection-id=3D"19" style=3D"transform: none; transform-origin: 50%=
- 50% 0px; opacity: 1;"><div class=3D"h-9 pb-2 pt-3 px-3 text-xs text-gray-5=
-00 font-medium text-ellipsis overflow-hidden break-all bg-gray-900">January=
-</div></div><ol><li class=3D"relative" data-projection-id=3D"20" style=3D"o=
-pacity: 1; height: auto; transform: none; transform-origin: 50% 50% 0px;"><=
-a class=3D"flex py-3 px-3 items-center gap-3 relative rounded-md hover:bg-[=
-#2A2B32] cursor-pointer break-all )} )} hover:pr-4 bg-gray-900 group"><svg =
-stroke=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 =
-24" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" he=
-ight=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"=
-M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg=
-><div class=3D"flex-1 text-ellipsis max-h-5 overflow-hidden break-all relat=
-ive">Decrypt Rabbit Cipher Text<div class=3D"absolute inset-y-0 right-0 w-8=
- z-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"></div></di=
-v></a></li></ol></div></span><span></span></div></div></div><div class=3D"b=
-order-t border-white/20 pt-2"><a class=3D"flex py-3 px-3 items-center gap-3=
- transition-colors duration-200 text-white cursor-pointer text-sm hover:bg-=
-gray-800 rounded-md"><span class=3D"flex w-full flex-row justify-between"><=
-span class=3D"gold-new-button flex items-center gap-3"><svg stroke=3D"curre=
-ntColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-line=
-cap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" wi=
-dth=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M20 21v-2a4 4 0=
- 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx=3D"12" cy=3D"7" r=3D"4"></cir=
-cle></svg>Upgrade to Plus</span><span class=3D"rounded-md bg-yellow-200 px-=
-1.5 py-0.5 text-xs font-medium uppercase text-gray-800">NEW</span></span></=
-a><div class=3D"group relative" data-headlessui-state=3D""><button class=3D=
-"flex w-full items-center gap-2.5 rounded-md px-3 py-3 text-sm transition-c=
-olors duration-200 hover:bg-gray-800 group-ui-open:bg-gray-800" id=3D"headl=
-essui-menu-button-:r4:" type=3D"button" aria-haspopup=3D"true" aria-expande=
-d=3D"false" data-headlessui-state=3D""><div class=3D"-ml-0.5 w-5 flex-shrin=
-k-0"><div class=3D"relative flex"><span style=3D"box-sizing: border-box; di=
-splay: inline-block; overflow: hidden; width: initial; height: initial; bac=
-kground: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position=
-: relative; max-width: 100%;"><span style=3D"box-sizing: border-box; displa=
-y: block; width: initial; height: initial; background: none; opacity: 1; bo=
-rder: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt=3D"" aria-=
-hidden=3D"true" src=3D"data:image/svg+xml,%3csvg%20xmlns=3D%27http://www.w3=
-.org/2000/svg%27%20version=3D%271.1%27%20width=3D%2720%27%20height=3D%2720%=
-27/%3e" style=3D"display: block; max-width: 100%; width: initial; height: i=
-nitial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0p=
-x;"></span><img alt=3D"User" src=3D"https://chat.openai.com/_next/image?url=
-=3Dhttps%3A%2F%2Fs.gravatar.com%2Favatar%2F69076f67806821ffdef28441a4200b78=
-%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252=
-Flu.png&amp;w=3D48&amp;q=3D75" decoding=3D"async" data-nimg=3D"intrinsic" c=
-lass=3D"rounded-sm" style=3D"position: absolute; inset: 0px; box-sizing: bo=
-rder-box; padding: 0px; border: none; margin: auto; display: block; width: =
-0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-h=
-eight: 100%;"></span></div></div><div class=3D"grow overflow-hidden text-el=
-lipsis whitespace-nowrap text-left text-white">luboshorky2@seznam.cz</div><=
-svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0=
- 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4=
- flex-shrink-0 text-gray-500" height=3D"1em" width=3D"1em" xmlns=3D"http://=
-www.w3.org/2000/svg"><circle cx=3D"12" cy=3D"12" r=3D"1"></circle><circle c=
-x=3D"19" cy=3D"12" r=3D"1"></circle><circle cx=3D"5" cy=3D"12" r=3D"1"></ci=
-rcle></svg></button></div></div></nav></div></div></div></div><div class=3D=
-"relative flex h-full max-w-full flex-1"><div class=3D"flex h-full max-w-fu=
-ll flex-1 flex-col overflow-hidden"><main class=3D"relative h-full w-full t=
-ransition-width flex flex-col overflow-hidden items-stretch flex-1"><div cl=
-ass=3D"absolute z-10 hidden flex-col gap-2 md:flex right-3 top-3"></div><di=
-v class=3D"flex-1 overflow-hidden"><div class=3D"react-scroll-to-bottom--cs=
-s-rvcem-79elbk h-full dark:bg-gray-800"><div class=3D"react-scroll-to-botto=
-m--css-rvcem-1n7m0yu"><div class=3D"flex flex-col items-center text-sm dark=
-:bg-gray-800"><div class=3D"group w-full text-gray-800 dark:text-gray-100 b=
-order-b border-black/10 dark:border-gray-900/50 dark:bg-gray-800"><div clas=
-s=3D"flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3x=
-l md:py-6 lg:px-0 m-auto"><div class=3D"flex-shrink-0 flex flex-col relativ=
-e items-end"><div class=3D"w-[30px]"><div class=3D"relative flex"><span sty=
-le=3D"box-sizing: border-box; display: inline-block; overflow: hidden; widt=
-h: initial; height: initial; background: none; opacity: 1; border: 0px; mar=
-gin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style=
-=3D"box-sizing: border-box; display: block; width: initial; height: initial=
-; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max=
--width: 100%;"><img alt=3D"" aria-hidden=3D"true" src=3D"data:image/svg+xml=
-,%3csvg%20xmlns=3D%27http://www.w3.org/2000/svg%27%20version=3D%271.1%27%20=
-width=3D%2738%27%20height=3D%2738%27/%3e" style=3D"display: block; max-widt=
-h: 100%; width: initial; height: initial; background: none; opacity: 1; bor=
-der: 0px; margin: 0px; padding: 0px;"></span><img alt=3D"User" src=3D"https=
-://chat.openai.com/_next/image?url=3Dhttps%3A%2F%2Fs.gravatar.com%2Favatar%=
-2F69076f67806821ffdef28441a4200b78%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F=
-%252Fcdn.auth0.com%252Favatars%252Flu.png&amp;w=3D96&amp;q=3D75" decoding=
-=3D"async" data-nimg=3D"intrinsic" class=3D"rounded-sm" style=3D"position: =
-absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; m=
-argin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-=
-width: 100%; min-height: 100%; max-height: 100%;"></span></div></div><div c=
-lass=3D"text-xs flex items-center justify-center gap-1 invisible absolute l=
-eft-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible"><button=
- disabled=3D"" class=3D"dark:text-white disabled:text-gray-300 dark:disable=
-d:text-gray-400"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D=
-"1.5" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"rou=
-nd" class=3D"h-3 w-3" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.o=
-rg/2000/svg"><polyline points=3D"15 18 9 12 15 6"></polyline></svg></button=
-><span class=3D"flex-grow flex-shrink-0">1 / 1</span><button disabled=3D"" =
-class=3D"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400=
-"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"1.5" viewBox=
-=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"=
-h-3 w-3" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg">=
-<polyline points=3D"9 18 15 12 9 6"></polyline></svg></button></div></div><=
-div class=3D"relative flex flex-col w-[calc(100%-50px)] gap-1 md:gap-3 lg:w=
--[calc(100%-115px)]"><div class=3D"flex flex-grow flex-col gap-3"><div clas=
-s=3D"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break=
--words">Hi can you add coments for this code to make me understand its work=
-ing ?
+<path d=3D"M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1=3D"12" y1=3D"2" x=
+2=3D"12" y2=3D"12"></line></svg>Enable chat history</div></button></div><di=
+v class=3D"h-24 bg-gradient-to-t from-gray-900/0 to-gray-900"></div></div><=
+div class=3D"flex-col flex-1 transition-opacity duration-500 overflow-y-aut=
+o"><div class=3D"flex flex-col gap-2 pb-2 text-gray-100 text-sm"><div><span=
+><div class=3D"relative" data-projection-id=3D"24" style=3D"height: auto; o=
+pacity: 1;"><div class=3D"sticky top-0 z-[16]" data-projection-id=3D"25" st=
+yle=3D"opacity: 1;"><div class=3D"h-9 pb-2 pt-3 px-3 text-xs text-gray-500 =
+font-medium text-ellipsis overflow-hidden break-all bg-gray-900">Today</div=
+></div><ol><li class=3D"relative z-[15]" data-projection-id=3D"26" style=3D=
+"opacity: 1; height: auto;"><a class=3D"flex py-3 px-3 items-center gap-3 r=
+elative rounded-md cursor-pointer break-all )} pr-14 )} bg-gray-800 hover:b=
+g-gray-800 group"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=
+=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"ro=
+und" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.=
+org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2=
+ 0 0 1 2 2z"></path></svg><div class=3D"flex-1 text-ellipsis max-h-5 overfl=
+ow-hidden break-all relative">Windows certificate program setup.<div class=
+=3D"absolute inset-y-0 right-0 w-8 z-10 bg-gradient-to-l from-gray-800"></d=
+iv></div><div class=3D"absolute flex right-1 z-10 text-gray-300 visible"><b=
+utton class=3D"p-1 hover:text-white"><svg stroke=3D"currentColor" fill=3D"n=
+one" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stro=
+ke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=
+=3D"http://www.w3.org/2000/svg"><path d=3D"M12 20h9"></path><path d=3D"M16.=
+5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></button>=
+<button class=3D"p-1 hover:text-white"><svg stroke=3D"currentColor" fill=3D=
+"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" st=
+roke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmln=
+s=3D"http://www.w3.org/2000/svg"><polyline points=3D"3 6 5 6 21 6"></polyli=
+ne><path d=3D"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h=
+4a2 2 0 0 1 2 2v2"></path><line x1=3D"10" y1=3D"11" x2=3D"10" y2=3D"17"></l=
+ine><line x1=3D"14" y1=3D"11" x2=3D"14" y2=3D"17"></line></svg></button></d=
+iv></a></li></ol></div><div class=3D"relative" data-projection-id=3D"27" st=
+yle=3D"height: auto; opacity: 1;"><div class=3D"sticky top-0 z-[14]" data-p=
+rojection-id=3D"28" style=3D"opacity: 1;"><div class=3D"h-9 pb-2 pt-3 px-3 =
+text-xs text-gray-500 font-medium text-ellipsis overflow-hidden break-all b=
+g-gray-900">Previous 7 Days</div></div><ol><li class=3D"relative" data-proj=
+ection-id=3D"29" style=3D"opacity: 1; height: auto;"><a class=3D"flex py-3 =
+px-3 items-center gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-point=
+er break-all )} )} hover:pr-4 bg-gray-900 group"><svg stroke=3D"currentColo=
+r" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D=
+"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D=
+"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H=
+7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"flex-1=
+ text-ellipsis max-h-5 overflow-hidden break-all relative">Brainfuck IoT An=
+alysis.<div class=3D"absolute inset-y-0 right-0 w-8 z-10 bg-gradient-to-l f=
+rom-gray-900 group-hover:from-[#2A2B32]"></div></div></a></li><li class=3D"=
+relative" data-projection-id=3D"30" style=3D"opacity: 1; height: auto;"><a =
+class=3D"flex py-3 px-3 items-center gap-3 relative rounded-md hover:bg-[#2=
+A2B32] cursor-pointer break-all )} )} hover:pr-4 bg-gray-900 group"><svg st=
+roke=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24=
+" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" heig=
+ht=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M2=
+1 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><=
+div class=3D"flex-1 text-ellipsis max-h-5 overflow-hidden break-all relativ=
+e">Python script for NC server communication<div class=3D"absolute inset-y-=
+0 right-0 w-8 z-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32=
+]"></div></div></a></li></ol></div><div class=3D"relative" data-projection-=
+id=3D"31" style=3D"height: auto; opacity: 1;"><div class=3D"sticky top-0 z-=
+[14]" data-projection-id=3D"32" style=3D"opacity: 1;"><div class=3D"h-9 pb-=
+2 pt-3 px-3 text-xs text-gray-500 font-medium text-ellipsis overflow-hidden=
+ break-all bg-gray-900">Previous 30 Days</div></div><ol><li class=3D"relati=
+ve" data-projection-id=3D"33" style=3D"opacity: 1; height: auto;"><a class=
+=3D"flex py-3 px-3 items-center gap-3 relative rounded-md hover:bg-[#2A2B32=
+] cursor-pointer break-all )} )} hover:pr-4 bg-gray-900 group"><svg stroke=
+=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" st=
+roke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=
+=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M21 =
+15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><di=
+v class=3D"flex-1 text-ellipsis max-h-5 overflow-hidden break-all relative"=
+>Django ORM for databases.<div class=3D"absolute inset-y-0 right-0 w-8 z-10=
+ bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"></div></div></a=
+></li></ol></div></span><span><div class=3D"relative" data-projection-id=3D=
+"34" style=3D"height: auto; opacity: 1;"><div class=3D"sticky top-0 z-[14]"=
+ data-projection-id=3D"35" style=3D"opacity: 1;"><div class=3D"h-9 pb-2 pt-=
+3 px-3 text-xs text-gray-500 font-medium text-ellipsis overflow-hidden brea=
+k-all bg-gray-900">April</div></div><ol><li class=3D"relative" data-project=
+ion-id=3D"36" style=3D"opacity: 1; height: auto;"><a class=3D"flex py-3 px-=
+3 items-center gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-pointer =
+break-all )} )} hover:pr-4 bg-gray-900 group"><svg stroke=3D"currentColor" =
+fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1e=
+m" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-=
+4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"flex-1 te=
+xt-ellipsis max-h-5 overflow-hidden break-all relative">Argumenta=C4=8Dn=C3=
+=AD faul "argumentum ad populum"<div class=3D"absolute inset-y-0 right-0 w-=
+8 z-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"></div></d=
+iv></a></li></ol></div><div class=3D"relative" data-projection-id=3D"37" st=
+yle=3D"height: auto; opacity: 1;"><div class=3D"sticky top-0 z-[14]" data-p=
+rojection-id=3D"38" style=3D"opacity: 1;"><div class=3D"h-9 pb-2 pt-3 px-3 =
+text-xs text-gray-500 font-medium text-ellipsis overflow-hidden break-all b=
+g-gray-900">March</div></div><ol><li class=3D"relative" data-projection-id=
+=3D"39" style=3D"opacity: 1; height: auto;"><a class=3D"flex py-3 px-3 item=
+s-center gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-pointer break-=
+all )} )} hover:pr-4 bg-gray-900 group"><svg stroke=3D"currentColor" fill=
+=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round"=
+ stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" x=
+mlns=3D"http://www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V=
+5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"flex-1 text-e=
+llipsis max-h-5 overflow-hidden break-all relative">Mana=C5=BEer Kybernetic=
+k=C3=A9 Bezpe=C4=8Dnosti.<div class=3D"absolute inset-y-0 right-0 w-8 z-10 =
+bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"></div></div></a>=
+</li></ol></div><div class=3D"relative" data-projection-id=3D"40" style=3D"=
+height: auto; opacity: 1;"><div class=3D"sticky top-0 z-[14]" data-projecti=
+on-id=3D"41" style=3D"opacity: 1;"><div class=3D"h-9 pb-2 pt-3 px-3 text-xs=
+ text-gray-500 font-medium text-ellipsis overflow-hidden break-all bg-gray-=
+900">February</div></div><ol><li class=3D"relative" data-projection-id=3D"4=
+2" style=3D"opacity: 1; height: auto;"><a class=3D"flex py-3 px-3 items-cen=
+ter gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-pointer break-all )=
+} )} hover:pr-4 bg-gray-900 group"><svg stroke=3D"currentColor" fill=3D"non=
+e" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke=
+-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D=
+"http://www.w3.org/2000/svg"><path d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0=
+ 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><div class=3D"flex-1 text-ellipsis=
+ max-h-5 overflow-hidden break-all relative">AES Encryption Algorithm<div c=
+lass=3D"absolute inset-y-0 right-0 w-8 z-10 bg-gradient-to-l from-gray-900 =
+group-hover:from-[#2A2B32]"></div></div></a></li></ol></div><div class=3D"r=
+elative" data-projection-id=3D"43" style=3D"height: auto; opacity: 1;"><div=
+ class=3D"sticky top-0 z-[14]" data-projection-id=3D"44" style=3D"opacity: =
+1;"><div class=3D"h-9 pb-2 pt-3 px-3 text-xs text-gray-500 font-medium text=
+-ellipsis overflow-hidden break-all bg-gray-900">January</div></div><ol><li=
+ class=3D"relative" data-projection-id=3D"45" style=3D"opacity: 1; height: =
+auto;"><a class=3D"flex py-3 px-3 items-center gap-3 relative rounded-md ho=
+ver:bg-[#2A2B32] cursor-pointer break-all )} )} hover:pr-4 bg-gray-900 grou=
+p"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D=
+"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4=
+ w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><pa=
+th d=3D"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></pa=
+th></svg><div class=3D"flex-1 text-ellipsis max-h-5 overflow-hidden break-a=
+ll relative">Decrypt Rabbit Cipher Text<div class=3D"absolute inset-y-0 rig=
+ht-0 w-8 z-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"></=
+div></div></a></li></ol></div></span><span></span></div></div></div><div cl=
+ass=3D"border-t border-white/20 pt-2"><a class=3D"flex py-3 px-3 items-cent=
+er gap-3 transition-colors duration-200 text-white cursor-pointer text-sm h=
+over:bg-gray-800 rounded-md"><span class=3D"flex w-full flex-row justify-be=
+tween"><span class=3D"gold-new-button flex items-center gap-3"><svg stroke=
+=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" st=
+roke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=
+=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M20 =
+21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx=3D"12" cy=3D"7" r=
+=3D"4"></circle></svg>Upgrade to Plus</span><span class=3D"rounded-md bg-ye=
+llow-200 px-1.5 py-0.5 text-xs font-medium uppercase text-gray-800">NEW</sp=
+an></span></a><div class=3D"group relative" data-headlessui-state=3D""><but=
+ton class=3D"flex w-full items-center gap-2.5 rounded-md px-3 py-3 text-sm =
+transition-colors duration-200 hover:bg-gray-800 group-ui-open:bg-gray-800"=
+ id=3D"headlessui-menu-button-:r1n:" type=3D"button" aria-haspopup=3D"true"=
+ aria-expanded=3D"false" data-headlessui-state=3D""><div class=3D"-ml-0.5 w=
+-5 flex-shrink-0"><div class=3D"relative flex"><span style=3D"box-sizing: b=
+order-box; display: inline-block; overflow: hidden; width: initial; height:=
+ initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: =
+0px; position: relative; max-width: 100%;"><span style=3D"box-sizing: borde=
+r-box; display: block; width: initial; height: initial; background: none; o=
+pacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img a=
+lt=3D"" aria-hidden=3D"true" src=3D"data:image/svg+xml,%3csvg%20xmlns=3D%27=
+http://www.w3.org/2000/svg%27%20version=3D%271.1%27%20width=3D%2720%27%20he=
+ight=3D%2720%27/%3e" style=3D"display: block; max-width: 100%; width: initi=
+al; height: initial; background: none; opacity: 1; border: 0px; margin: 0px=
+; padding: 0px;"></span><img alt=3D"User" src=3D"https://chat.openai.com/_n=
+ext/image?url=3Dhttps%3A%2F%2Fs.gravatar.com%2Favatar%2F69076f67806821ffdef=
+28441a4200b78%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%25=
+2Favatars%252Flu.png&amp;w=3D48&amp;q=3D75" decoding=3D"async" data-nimg=3D=
+"intrinsic" class=3D"rounded-sm" style=3D"position: absolute; inset: 0px; b=
+ox-sizing: border-box; padding: 0px; border: none; margin: auto; display: b=
+lock; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height=
+: 100%; max-height: 100%;"></span></div></div><div class=3D"grow overflow-h=
+idden text-ellipsis whitespace-nowrap text-left text-white">luboshorky2@sez=
+nam.cz</div><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"2" v=
+iewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" cla=
+ss=3D"h-4 w-4 flex-shrink-0 text-gray-500" height=3D"1em" width=3D"1em" xml=
+ns=3D"http://www.w3.org/2000/svg"><circle cx=3D"12" cy=3D"12" r=3D"1"></cir=
+cle><circle cx=3D"19" cy=3D"12" r=3D"1"></circle><circle cx=3D"5" cy=3D"12"=
+ r=3D"1"></circle></svg></button></div></div></nav></div></div></div></div>=
+<div class=3D"relative flex h-full max-w-full flex-1"><div class=3D"flex h-=
+full max-w-full flex-1 flex-col overflow-hidden"><main class=3D"relative h-=
+full w-full transition-width flex flex-col overflow-hidden items-stretch fl=
+ex-1"><div class=3D"absolute z-10 hidden flex-col gap-2 md:flex right-3 top=
+-3"></div><div class=3D"flex-1 overflow-hidden"><div class=3D"react-scroll-=
+to-bottom--css-djwaa-79elbk h-full dark:bg-gray-800"><div class=3D"react-sc=
+roll-to-bottom--css-djwaa-1n7m0yu"><div class=3D"flex flex-col items-center=
+ text-sm dark:bg-gray-800"><div class=3D"group w-full text-gray-800 dark:te=
+xt-gray-100 border-b border-black/10 dark:border-gray-900/50 dark:bg-gray-8=
+00"><div class=3D"flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-x=
+l xl:max-w-3xl md:py-6 lg:px-0 m-auto"><div class=3D"flex-shrink-0 flex fle=
+x-col relative items-end"><div class=3D"w-[30px]"><div class=3D"relative fl=
+ex"><span style=3D"box-sizing: border-box; display: inline-block; overflow:=
+ hidden; width: initial; height: initial; background: none; opacity: 1; bor=
+der: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">=
+<span style=3D"box-sizing: border-box; display: block; width: initial; heig=
+ht: initial; background: none; opacity: 1; border: 0px; margin: 0px; paddin=
+g: 0px; max-width: 100%;"><img alt=3D"" aria-hidden=3D"true" src=3D"data:im=
+age/svg+xml,%3csvg%20xmlns=3D%27http://www.w3.org/2000/svg%27%20version=3D%=
+271.1%27%20width=3D%2738%27%20height=3D%2738%27/%3e" style=3D"display: bloc=
+k; max-width: 100%; width: initial; height: initial; background: none; opac=
+ity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt=3D"User" s=
+rc=3D"https://chat.openai.com/_next/image?url=3Dhttps%3A%2F%2Fs.gravatar.co=
+m%2Favatar%2F69076f67806821ffdef28441a4200b78%3Fs%3D480%26r%3Dpg%26d%3Dhttp=
+s%253A%252F%252Fcdn.auth0.com%252Favatars%252Flu.png&amp;w=3D96&amp;q=3D75"=
+ decoding=3D"async" data-nimg=3D"intrinsic" class=3D"rounded-sm" style=3D"p=
+osition: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border=
+: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 1=
+00%; max-width: 100%; min-height: 100%; max-height: 100%;"></span></div></d=
+iv><div class=3D"text-xs flex items-center justify-center gap-1 invisible a=
+bsolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible=
+"><button disabled=3D"" class=3D"dark:text-white disabled:text-gray-300 dar=
+k:disabled:text-gray-400"><svg stroke=3D"currentColor" fill=3D"none" stroke=
+-width=3D"1.5" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejo=
+in=3D"round" class=3D"h-3 w-3" height=3D"1em" width=3D"1em" xmlns=3D"http:/=
+/www.w3.org/2000/svg"><polyline points=3D"15 18 9 12 15 6"></polyline></svg=
+></button><span class=3D"flex-grow flex-shrink-0">1 / 1</span><button disab=
+led=3D"" class=3D"dark:text-white disabled:text-gray-300 dark:disabled:text=
+-gray-400"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"1.5" =
+viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" cl=
+ass=3D"h-3 w-3" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/200=
+0/svg"><polyline points=3D"9 18 15 12 9 6"></polyline></svg></button></div>=
+</div><div class=3D"relative flex flex-col w-[calc(100%-50px)] gap-1 md:gap=
+-3 lg:w-[calc(100%-115px)]"><div class=3D"flex flex-grow flex-col gap-3"><d=
+iv class=3D"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wra=
+p break-words">Hi can you add coments for this code to make me understand i=
+ts working ?
 `
 #include "stdafx.h"
 
@@ -3446,85 +3435,287 @@ inecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em"=
  width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M10 15v4a3 3=
  0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.=
 31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"></path></svg></button></div=
-></div></div></div></div></div><div class=3D"w-full h-32 md:h-48 flex-shrin=
-k-0"></div></div></div></div></div><div class=3D"absolute bottom-0 left-0 w=
--full border-t md:border-t-0 dark:border-white/20 md:border-transparent md:=
-dark:border-transparent md:bg-vert-light-gradient bg-white dark:bg-gray-800=
- md:!bg-transparent dark:md:bg-vert-dark-gradient pt-2"><form class=3D"stre=
-tch mx-2 flex flex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:m=
-ax-w-2xl xl:max-w-3xl"><div class=3D"relative flex h-full flex-1 items-stre=
-tch md:flex-col"><div class=3D""><div class=3D"h-full flex ml-1 md:w-full m=
-d:m-auto md:mb-2 gap-0 md:gap-2 justify-center"><button class=3D"btn relati=
-ve btn-neutral border-0 md:border" as=3D"button"><div class=3D"flex w-full =
-gap-2 items-center justify-center"><svg stroke=3D"currentColor" fill=3D"non=
-e" stroke-width=3D"1.5" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stro=
-ke-linejoin=3D"round" class=3D"h-3 w-3 flex-shrink-0" height=3D"1em" width=
-=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><polyline points=3D"1 4 1 10 =
-7 10"></polyline><polyline points=3D"23 20 23 14 17 14"></polyline><path d=
-=3D"M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></=
-path></svg>Regenerate response</div></button></div></div><div class=3D"flex=
- flex-col w-full py-2 flex-grow md:py-3 md:pl-4 relative border border-blac=
-k/10 bg-white dark:border-gray-900/50 dark:text-white dark:bg-gray-700 roun=
-ded-md shadow-[0_0_10px_rgba(0,0,0,0.10)] dark:shadow-[0_0_15px_rgba(0,0,0,=
-0.10)]"><textarea tabindex=3D"0" data-id=3D"request-:R1dd6:-11" rows=3D"1" =
-placeholder=3D"Send a message." class=3D"m-0 w-full resize-none border-0 bg=
--transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent=
- pl-2 md:pl-0" style=3D"max-height: 200px; height: 24px; overflow-y: hidden=
-;"></textarea><button class=3D"absolute p-1 rounded-md text-gray-500 bottom=
--1.5 md:bottom-2.5 hover:bg-gray-100 enabled:dark:hover:text-gray-400 dark:=
-hover:bg-gray-900 disabled:hover:bg-transparent dark:disabled:hover:bg-tran=
-sparent right-1 md:right-2 disabled:opacity-40" disabled=3D""><svg stroke=
-=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" st=
-roke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4 mr-1" hei=
-ght=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><line x1=3D"=
-22" y1=3D"2" x2=3D"11" y2=3D"13"></line><polygon points=3D"22 2 15 22 11 13=
- 2 9 22 2"></polygon></svg></button></div></div></form><div class=3D"px-3 p=
-b-3 pt-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-4 md:pb=
--6 md:pt-3"><span>Free Research Preview. ChatGPT may produce inaccurate inf=
-ormation about people, places, or facts. <a href=3D"https://help.openai.com=
-/en/articles/6825453-chatgpt-release-notes" target=3D"_blank" rel=3D"norefe=
-rrer" class=3D"underline">ChatGPT May 3 Version</a></span></div></div></mai=
-n></div></div></div><div class=3D"absolute left-0 right-0 top-0 z-[2]"></di=
-v></div><iframe height=3D"1" width=3D"1" style=3D"position: absolute; top: =
-0px; left: 0px; border: none; visibility: hidden;"></iframe><next-route-ann=
-ouncer><p aria-live=3D"assertive" id=3D"__next-route-announcer__" role=3D"a=
-lert" style=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; ma=
-rgin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; w=
-idth: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-an=
-nouncer><div portal-container=3D""><span class=3D"pointer-events-none fixed=
- inset-0 z-[60] mx-auto my-2 flex max-w-[560px] flex-col items-stretch just=
-ify-start md:pb-5"></span></div><iframe id=3D"intercom-frame" style=3D"posi=
-tion: absolute !important; opacity: 0 !important; width: 1px !important; he=
-ight: 1px !important; top: 0 !important; left: 0 !important; border: none !=
-important; display: block !important; z-index: -1 !important; pointer-event=
-s: none;" aria-hidden=3D"true" tabindex=3D"-1" title=3D"Intercom"></iframe>=
-<div class=3D"intercom-lightweight-app"></div></body></html>
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+></div></div></div></div></div><div class=3D"group w-full text-gray-800 dar=
+k:text-gray-100 border-b border-black/10 dark:border-gray-900/50 dark:bg-gr=
+ay-800"><div class=3D"flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max=
+-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto"><div class=3D"flex-shrink-0 flex=
+ flex-col relative items-end"><div class=3D"w-[30px]"><div class=3D"relativ=
+e flex"><span style=3D"box-sizing: border-box; display: inline-block; overf=
+low: hidden; width: initial; height: initial; background: none; opacity: 1;=
+ border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100=
+%;"><span style=3D"box-sizing: border-box; display: block; width: initial; =
+height: initial; background: none; opacity: 1; border: 0px; margin: 0px; pa=
+dding: 0px; max-width: 100%;"><img alt=3D"" aria-hidden=3D"true" src=3D"dat=
+a:image/svg+xml,%3csvg%20xmlns=3D%27http://www.w3.org/2000/svg%27%20version=
+=3D%271.1%27%20width=3D%2738%27%20height=3D%2738%27/%3e" style=3D"display: =
+block; max-width: 100%; width: initial; height: initial; background: none; =
+opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt=3D"Use=
+r" src=3D"https://chat.openai.com/_next/image?url=3Dhttps%3A%2F%2Fs.gravata=
+r.com%2Favatar%2F69076f67806821ffdef28441a4200b78%3Fs%3D480%26r%3Dpg%26d%3D=
+https%253A%252F%252Fcdn.auth0.com%252Favatars%252Flu.png&amp;w=3D96&amp;q=
+=3D75" decoding=3D"async" data-nimg=3D"intrinsic" class=3D"rounded-sm" styl=
+e=3D"position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; =
+border: none; margin: auto; display: block; width: 0px; height: 0px; min-wi=
+dth: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"></span></d=
+iv></div><div class=3D"text-xs flex items-center justify-center gap-1 invis=
+ible absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !inv=
+isible"><button disabled=3D"" class=3D"dark:text-white disabled:text-gray-3=
+00 dark:disabled:text-gray-400"><svg stroke=3D"currentColor" fill=3D"none" =
+stroke-width=3D"1.5" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-=
+linejoin=3D"round" class=3D"h-3 w-3" height=3D"1em" width=3D"1em" xmlns=3D"=
+http://www.w3.org/2000/svg"><polyline points=3D"15 18 9 12 15 6"></polyline=
+></svg></button><span class=3D"flex-grow flex-shrink-0">1 / 1</span><button=
+ disabled=3D"" class=3D"dark:text-white disabled:text-gray-300 dark:disable=
+d:text-gray-400"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D=
+"1.5" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"rou=
+nd" class=3D"h-3 w-3" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.o=
+rg/2000/svg"><polyline points=3D"9 18 15 12 9 6"></polyline></svg></button>=
+</div></div><div class=3D"relative flex flex-col w-[calc(100%-50px)] gap-1 =
+md:gap-3 lg:w-[calc(100%-115px)]"><div class=3D"flex flex-grow flex-col gap=
+-3"><div class=3D"min-h-[20px] flex flex-col items-start gap-4 whitespace-p=
+re-wrap break-words">How to rewrite this code as background service which w=
+ill not show cmd line ?</div></div><div class=3D"text-gray-400 flex self-en=
+d lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg=
+:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible"><button clas=
+s=3D"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-40=
+0 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-=
+gray-400 md:invisible md:group-hover:visible"><svg stroke=3D"currentColor" =
+fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1e=
+m" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M11 4H4a2 2 0 0 0-2 2v14=
+a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d=3D"M18.5 2.5a2.121 2.121=
+ 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></button></div><div class=
+=3D"flex justify-between lg:block"></div></div></div></div><div class=3D"gr=
+oup w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:b=
+order-gray-900/50 bg-gray-50 dark:bg-[#444654]"><div class=3D"flex p-4 gap-=
+4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 =
+m-auto"><div class=3D"flex-shrink-0 flex flex-col relative items-end"><div =
+class=3D"w-[30px]"><div class=3D"relative p-1 rounded-sm h-[30px] w-[30px] =
+text-white flex items-center justify-center" style=3D"background-color: rgb=
+(16, 163, 127);"><svg width=3D"41" height=3D"41" viewBox=3D"0 0 41 41" fill=
+=3D"none" xmlns=3D"http://www.w3.org/2000/svg" stroke-width=3D"1.5" class=
+=3D"h-6 w-6" role=3D"img"><title>ChatGPT</title><text x=3D"-9999" y=3D"-999=
+9">ChatGPT</text><path d=3D"M37.5324 16.8707C37.9808 15.5241 38.1363 14.097=
+4 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.=
+83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215=
+ 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19=
+.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.=
+42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.9868=
+6 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.95=
+6464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.=
+5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 =
+29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76=
+321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107=
+ 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40=
+.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.45=
+56 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C3=
+7.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.697=
+9 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 =
+37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8=
+666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 2=
+6.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9=
+213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29=
+.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.790=
+9 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C=
+5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.=
+0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 =
+30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979=
+C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29=
+.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.94=
+47 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194=
+C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10=
+.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.462=
+9C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28=
+.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.11=
+07 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3=
+.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0=
+556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531=
+ 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34=
+.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849=
+ 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29=
+.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.60=
+47 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20=
+.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.143=
+1 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.=
+4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.885=
+8V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 1=
+6.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19=
+376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723=
+ 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35=
+.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9=
+763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071=
+C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.=
+42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.677=
+5 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22=
+.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.06=
+26C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 =
+17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9=
+985V17.9991Z" fill=3D"currentColor"></path></svg></div></div><div class=3D"=
+text-xs flex items-center justify-center gap-1 invisible absolute left-0 to=
+p-2 -ml-4 -translate-x-full group-hover:visible !invisible"><button disable=
+d=3D"" class=3D"dark:text-white disabled:text-gray-300 dark:disabled:text-g=
+ray-400"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"1.5" vi=
+ewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" clas=
+s=3D"h-3 w-3" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/=
+svg"><polyline points=3D"15 18 9 12 15 6"></polyline></svg></button><span c=
+lass=3D"flex-grow flex-shrink-0">1 / 1</span><button disabled=3D"" class=3D=
+"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400"><svg s=
+troke=3D"currentColor" fill=3D"none" stroke-width=3D"1.5" viewBox=3D"0 0 24=
+ 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-3 w-3" h=
+eight=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><polyline =
+points=3D"9 18 15 12 9 6"></polyline></svg></button></div></div><div class=
+=3D"relative flex flex-col w-[calc(100%-50px)] gap-1 md:gap-3 lg:w-[calc(10=
+0%-115px)]"><div class=3D"flex flex-grow flex-col gap-3"><div class=3D"min-=
+h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words"><=
+div class=3D"markdown prose w-full break-words dark:prose-invert light"><p>=
+To rewrite this code as a background service which will not show cmd line, =
+you will need to create a Windows service using the Windows Service Control=
+ Manager (SCM). Here are the general steps:</p><ol><li><p>Create a new Visu=
+al Studio project for a Windows service. In Visual Studio, select File -&gt=
+; New -&gt; Project. In the New Project dialog, select "Windows Service" un=
+der Installed -&gt; Visual C++ -&gt; Windows Desktop.</p></li><li><p>Copy a=
+nd paste the code from your existing console application into the <code>Ser=
+viceBase::OnStart</code> method of the Windows service.</p></li><li><p>To h=
+ide the command prompt window, you need to call the <code>FreeConsole</code=
+> function to detach the console from the process. You can add this functio=
+n call to the <code>ServiceBase::OnStart</code> method after the code from =
+your console application has been executed.</p></li></ol><p>Here's an examp=
+le of what the <code>ServiceBase::OnStart</code> method might look like:</p=
+><pre class=3D""><div class=3D"bg-black rounded-md mb-4"><div class=3D"flex=
+ items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-san=
+s justify-between rounded-t-md"><span>scss</span><button class=3D"flex ml-a=
+uto gap-2"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=3D"2" vi=
+ewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"round" clas=
+s=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/=
+svg"><path d=3D"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 =
+2 0 0 1 2-2h2"></path><rect x=3D"8" y=3D"2" width=3D"8" height=3D"4" rx=3D"=
+1" ry=3D"1"></rect></svg>Copy code</button></div><div class=3D"p-4 overflow=
+-y-auto"><code class=3D"!whitespace-pre hljs language-scss">void MyService:=
+:<span class=3D"hljs-built_in">OnStart</span>(array&lt;System::String ^&gt;=
+ ^args)
+{
+    <span class=3D"hljs-comment">// Detach the console from the process to =
+hide the command prompt window</span>
+    <span class=3D"hljs-built_in">FreeConsole</span>();
+
+    <span class=3D"hljs-comment">// Your existing code goes here...</span>
+    <span class=3D"hljs-comment">// ...</span>
+
+    <span class=3D"hljs-comment">// When your code is finished, the service=
+ should stop itself</span>
+    this-&gt;<span class=3D"hljs-built_in">Stop</span>();
+}
+</code></div></div></pre><p>Note that you may need to modify your existing =
+code to work correctly as a Windows service. For example, you will need to =
+handle service-specific events, such as the <code>OnStop</code> event, and =
+you may need to add additional code to handle errors and log information to=
+ the Windows Event Log.</p><p>Once you have created the Windows service, yo=
+u can install it using the <code>sc</code> command or the Service Control M=
+anager in the Windows Administrative Tools.</p></div></div></div><div class=
+=3D"flex justify-between lg:block"><div class=3D"text-gray-400 flex self-en=
+d lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg=
+:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible"><button clas=
+s=3D"flex ml-auto gap-2 rounded-md p-1 hover:bg-gray-100 hover:text-gray-70=
+0 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabl=
+ed:dark:hover:text-gray-400"><svg stroke=3D"currentColor" fill=3D"none" str=
+oke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linej=
+oin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http:=
+//www.w3.org/2000/svg"><path d=3D"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a=
+2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x=3D"8" y=3D"2" width=3D"8" h=
+eight=3D"4" rx=3D"1" ry=3D"1"></rect></svg></button><div class=3D"flex gap-=
+1"><button class=3D"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 da=
+rk:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:d=
+ark:hover:text-gray-400"><svg stroke=3D"currentColor" fill=3D"none" stroke-=
+width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=
+=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" xmlns=3D"http://w=
+ww.w3.org/2000/svg"><path d=3D"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 =
+0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></=
+path></svg></button><button class=3D"p-1 rounded-md hover:bg-gray-100 hover=
+:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gr=
+ay-200 disabled:dark:hover:text-gray-400"><svg stroke=3D"currentColor" fill=
+=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" stroke-linecap=3D"round"=
+ stroke-linejoin=3D"round" class=3D"h-4 w-4" height=3D"1em" width=3D"1em" x=
+mlns=3D"http://www.w3.org/2000/svg"><path d=3D"M10 15v4a3 3 0 0 0 3 3l4-9V2=
+H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22=
+ 4v7a2.31 2.31 0 0 1-2.33 2H17"></path></svg></button></div></div></div></d=
+iv></div></div><div class=3D"w-full h-32 md:h-48 flex-shrink-0"></div></div=
+></div></div></div><div class=3D"absolute bottom-0 left-0 w-full border-t m=
+d:border-t-0 dark:border-white/20 md:border-transparent md:dark:border-tran=
+sparent md:bg-vert-light-gradient bg-white dark:bg-gray-800 md:!bg-transpar=
+ent dark:md:bg-vert-dark-gradient pt-2"><form class=3D"stretch mx-2 flex fl=
+ex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:max-w-2xl xl:max-=
+w-3xl"><div class=3D"relative flex h-full flex-1 items-stretch md:flex-col"=
+><div class=3D""><div class=3D"h-full flex ml-1 md:w-full md:m-auto md:mb-2=
+ gap-0 md:gap-2 justify-center"><button class=3D"btn relative btn-neutral b=
+order-0 md:border" as=3D"button"><div class=3D"flex w-full gap-2 items-cent=
+er justify-center"><svg stroke=3D"currentColor" fill=3D"none" stroke-width=
+=3D"1.5" viewBox=3D"0 0 24 24" stroke-linecap=3D"round" stroke-linejoin=3D"=
+round" class=3D"h-3 w-3 flex-shrink-0" height=3D"1em" width=3D"1em" xmlns=
+=3D"http://www.w3.org/2000/svg"><polyline points=3D"1 4 1 10 7 10"></polyli=
+ne><polyline points=3D"23 20 23 14 17 14"></polyline><path d=3D"M20.49 9A9 =
+9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>Rege=
+nerate response</div></button></div></div><div class=3D"flex flex-col w-ful=
+l py-2 flex-grow md:py-3 md:pl-4 relative border border-black/10 bg-white d=
+ark:border-gray-900/50 dark:text-white dark:bg-gray-700 rounded-md shadow-[=
+0_0_10px_rgba(0,0,0,0.10)] dark:shadow-[0_0_15px_rgba(0,0,0,0.10)]"><textar=
+ea tabindex=3D"0" data-id=3D"4cf89cb0-a23f-460e-8d03-ed44d084ac7d" rows=3D"=
+1" placeholder=3D"Send a message." class=3D"m-0 w-full resize-none border-0=
+ bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transpar=
+ent pl-2 md:pl-0" style=3D"max-height: 200px; height: 24px; overflow-y: hid=
+den;"></textarea><button disabled=3D"" class=3D"absolute p-1 rounded-md tex=
+t-gray-500 bottom-1.5 md:bottom-2.5 hover:bg-gray-100 enabled:dark:hover:te=
+xt-gray-400 dark:hover:bg-gray-900 disabled:hover:bg-transparent dark:disab=
+led:hover:bg-transparent right-1 md:right-2 disabled:opacity-40"><svg strok=
+e=3D"currentColor" fill=3D"none" stroke-width=3D"2" viewBox=3D"0 0 24 24" s=
+troke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h-4 w-4 mr-1" he=
+ight=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg"><line x1=3D=
+"22" y1=3D"2" x2=3D"11" y2=3D"13"></line><polygon points=3D"22 2 15 22 11 1=
+3 2 9 22 2"></polygon></svg></button></div></div></form><div class=3D"px-3 =
+pb-3 pt-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-4 md:p=
+b-6 md:pt-3"><span>Free Research Preview. ChatGPT may produce inaccurate in=
+formation about people, places, or facts. <a href=3D"https://help.openai.co=
+m/en/articles/6825453-chatgpt-release-notes" target=3D"_blank" rel=3D"noref=
+errer" class=3D"underline">ChatGPT May 3 Version</a></span></div></div></ma=
+in></div></div></div><div class=3D"absolute left-0 right-0 top-0 z-[2]"></d=
+iv></div><next-route-announcer><p aria-live=3D"assertive" id=3D"__next-rout=
+e-announcer__" role=3D"alert" style=3D"border: 0px; clip: rect(0px, 0px, 0p=
+x, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; positio=
+n: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: norm=
+al;">/c/50bb2a4b-75ad-451a-b1fa-6e06f16d61a0</p></next-route-announcer><div=
+ portal-container=3D""><span class=3D"pointer-events-none fixed inset-0 z-[=
+60] mx-auto my-2 flex max-w-[560px] flex-col items-stretch justify-start md=
+:pb-5"></span></div><iframe id=3D"intercom-frame" style=3D"position: absolu=
+te !important; opacity: 0 !important; width: 1px !important; height: 1px !i=
+mportant; top: 0 !important; left: 0 !important; border: none !important; d=
+isplay: block !important; z-index: -1 !important; pointer-events: none;" ar=
+ia-hidden=3D"true" tabindex=3D"-1" title=3D"Intercom"></iframe><div class=
+=3D"intercom-lightweight-app"></div></body></html>
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-df8f34b7-6441-4da6-a6ff-498adc78021d@mhtml.blink
+Content-Location: cid:css-627f882d-622e-4e80-a3cd-2c4ea774cc35@mhtml.blink
 
 @charset "utf-8";
 
-.react-scroll-to-bottom--css-rvcem-79elbk { position: relative; }
+.react-scroll-to-bottom--css-djwaa-79elbk { position: relative; }
 
-.react-scroll-to-bottom--css-rvcem-1n7m0yu { height: 100%; overflow-y: auto=
+.react-scroll-to-bottom--css-djwaa-1n7m0yu { height: 100%; overflow-y: auto=
 ; width: 100%; }
 
-.react-scroll-to-bottom--css-rvcem-1tj0vk3 { background-color: rgba(0, 0, 0=
+.react-scroll-to-bottom--css-djwaa-1tj0vk3 { background-color: rgba(0, 0, 0=
 , 0.2); border-radius: 10px; border-width: 0px; bottom: 5px; cursor: pointe=
 r; height: 20px; outline: 0px; position: absolute; right: 20px; width: 20px=
 ; }
 
-.react-scroll-to-bottom--css-rvcem-1tj0vk3:hover { background-color: rgba(0=
+.react-scroll-to-bottom--css-djwaa-1tj0vk3:hover { background-color: rgba(0=
 , 0, 0, 0.4); }
 
-.react-scroll-to-bottom--css-rvcem-1tj0vk3:active { background-color: rgba(=
+.react-scroll-to-bottom--css-djwaa-1tj0vk3:active { background-color: rgba(=
 0, 0, 0, 0.6); }
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-c8a26959-d67d-4393-8fd4-3c47d4ce4c7a@mhtml.blink
+Content-Location: cid:css-ecaef012-66c9-485a-8263-6e4375102b8d@mhtml.blink
 
 @charset "utf-8";
 
@@ -3607,10 +3798,10 @@ AsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDU=
 QhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm=
 4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFe=
 y0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC"); }
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-bb802d71-3144-4a98-86b5-bf7cacb8906f@mhtml.blink
+Content-Location: cid:css-0344f979-29b7-4443-99e2-59c613339dbe@mhtml.blink
 
 @charset "utf-8";
 
@@ -3630,10 +3821,10 @@ height: 0px; width: 0px; }
 [data-notify-text], [data-notify-html] { position: relative; }
 
 .notifyjs-arrow { position: absolute; z-index: 2; width: 0px; height: 0px; }
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-1039ae01-7680-4890-967a-3f8a443f1af6@mhtml.blink
+Content-Location: cid:css-34a9deb6-2500-4e52-bff9-50258c5b8e0f@mhtml.blink
 
 @charset "utf-8";
 
@@ -3728,10 +3919,10 @@ hadow: rgba(0, 0, 0, 0.05) 0px 0px 25px; }
 @media print {
   .intercom-lightweight-app { display: none; }
 }
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://chat.openai.com/_next/static/css/46d6a97156d5cf31.css
+Content-Location: https://chat.openai.com/_next/static/css/2f8fabb9a000fcfa.css
 
 @charset "utf-8";
 
@@ -6196,6 +6387,12 @@ ose-invert-code); --tw-prose-pre-code:var(--tw-prose-invert-pre-code); --tw=
 -prose-invert-th-borders); --tw-prose-td-borders:var(--tw-prose-invert-td-b=
 orders); }
 
+.placeholder\:text-gray-300::-webkit-input-placeholder { --tw-text-opacity:=
+1; color: rgba(197,197,210,var(--tw-text-opacity)); }
+
+.placeholder\:text-gray-300::placeholder { --tw-text-opacity:1; color: rgba=
+(197,197,210,var(--tw-text-opacity)); }
+
 .after\:content-\[\'\"\'\]::after, .before\:content-\[\'\"\'\]::before { --=
 tw-content:"\""; content: var(--tw-content); }
 
@@ -7576,7 +7773,7 @@ px; }
 .katex-display.fleqn > .katex { padding-left: 2em; text-align: left; }
 
 body { counter-reset: katexEqnNo 0 mmlEqnNo 0; }
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: image/webp
 Content-Transfer-Encoding: base64
 Content-Location: https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F69076f67806821ffdef28441a4200b78%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Flu.png&w=48&q=75
@@ -7587,7 +7784,7 @@ trm9Y+V5pV++bDw9ttFGlPSvcVXvtp2x8MukC/My6nkSkxDht4DBTZ3eBVXRbNvWVXV8bBLnv4ta
 QpzV35sDyPeLCR3ow4OGQWV0LtGgOyRH5dsZW8IrWs+L85fv9q/mTydff3eZnUzYTB2Ty5/JkBTj
 xGxvkMtkOm5FXeMoAAA=
 
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: image/webp
 Content-Transfer-Encoding: base64
 Content-Location: https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F69076f67806821ffdef28441a4200b78%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Flu.png&w=96&q=75
@@ -7599,16 +7796,9 @@ tamPuGFVA6TEwDHxI9ncrYj53cJjLOfIuyT+SoXgt3wJELfw0FIHAAphFZ34qMXLM27v2vS3XZ/l
 XYONXnnhlWXlA/RHoE+2Yvj+c0MR+bPHmAaoG9iZ1uQPn8lX9GT0mJPMfuf8aDrOfEaLWT6J74AA
 AA==
 
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG----
 Content-Type: text/html
-Content-ID: <frame-A835CD63EF3920D2E622908B834B9C22@mhtml.blink>
-Content-Transfer-Encoding: quoted-printable
-
-<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
-=3DUTF-8"></head><body></body></html>
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT----
-Content-Type: text/html
-Content-ID: <frame-BCC90E36B4E5191F0C44F1815C6D2961@mhtml.blink>
+Content-ID: <frame-6BB3A74D22EDF248F45C26D10E3ED65A@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 
 <html lang=3D"en"><head><meta http-equiv=3D"Content-Type" content=3D"text/h=
@@ -7618,4 +7808,4 @@ tml; charset=3DUTF-8">
       <body>
      =20
     </body></html>
-------MultipartBoundary--6vcli4fZttvj9ZWvSo3xjqZWTcYcCSG4XCeDcUavGT------
+------MultipartBoundary--c4VQZaCKesjKOvNFL4JWvSGAohbGDiRX2AeJKy0cpG------
