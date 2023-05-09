@@ -115,6 +115,28 @@ getpass(
 	return password;
 }
 
+
+"""
+// STATIC Password 
+wstring getpass(const char *prompt, bool show_asterisk=true)
+{
+    // Set a static password
+    static wstring password = L"myPassword123";
+
+    // If the show_asterisk flag is false, return the password as-is
+    if (!show_asterisk) {
+        return password;
+    }
+
+    // If the show_asterisk flag is true, display the password with asterisks
+    wstring maskedPassword;
+    for (size_t i = 0; i < password.length(); i++) {
+        maskedPassword += L'*';
+    }
+    return maskedPassword;
+}
+"""
+
 BOOL WINAPI
 CertEnumSystemStoreCallback(
         const void* pvSystemStore,
