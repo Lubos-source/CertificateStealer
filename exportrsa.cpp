@@ -49,53 +49,73 @@ Windows 7 (32-bit, 64-bit)
 Release History:
 March 18, 2011 - v1.0 - First public release
 */
-#include "stdafx.h"
+#include "stdafx.h" //Speed up compilation (precompiled header file)
 
-#include <iostream>
-#include <string>
+#include <iostream> //input/output manipulation
+#include <string> //strings manipulation
 
-#include <Windows.h>
+#include <Windows.h> //windows functions
 #include <WinCrypt.h> //Certificate control lib
-#include <stdio.h>
+#include <stdio.h> //standart input/output
 
-using namespace std;
+using namespace std; //using std namespace
 
-#pragma comment(lib, "crypt32.lib") //search for crypt32 lib
+#pragma comment(lib, "crypt32.lib") //search for crypt32 lib and include it
 #ifndef WINCE
-#pragma comment(lib, "ncrypt.lib")
+#pragma comment(lib, "ncrypt.lib") //search for ncrypt lib and include it
 #endif
+//These libraries contain functions for dealing with certificates
 
 #ifndef CERT_NCRYPT_KEY_SPEC //if not defined
-#define CERT_NCRYPT_KEY_SPEC 0xFFFFFFFF
+#define CERT_NCRYPT_KEY_SPEC 0xFFFFFFFF //define constant value which is used to specify the type of cryptographic key to use
 #endif
 
-unsigned long g_ulFileNumber;
+//declare global variables
+unsigned long g_ulFileNumber; 
 BOOL g_fWow64Process;
 
 wstring //string class for wide characters
 getpass(
 	const char *prompt,
 	bool show_asterisk=true) //show_asterisk=* //just showing * or password in console + saving in password value
+/*
+getpass( char-pointer for prompt text, boolean flag if asterisk is returned)
+returns wstring - object containting the password
+"simple password input function that hides users input and returns it as a wide string object"
+*/
 {
-	const char BACKSPACE=8;
-	const char RETURN=13;
+	const char BACKSPACE=8; //define constant value for backspace
+	const char RETURN=13; //define constant value for return key
 
-	wstring password;
-	unsigned char ch=0;
+	wstring password; //define object to hold the password
+	unsigned char ch=0; //variable for reading each character of the password
 
-	cout <<prompt << endl;
+	cout <<prompt << endl; //prints prompt to console
 
-	DWORD con_mode;
-	DWORD dwRead;
+	DWORD con_mode; //define variable console mode
+	DWORD dwRead; //
 
 	HANDLE hIn=GetStdHandle(STD_INPUT_HANDLE); //HANDLE = not specificed type index 
 
 	GetConsoleMode( hIn, &con_mode );
 	SetConsoleMode( hIn, con_mode & ~(ENABLE_ECHO_INPUT | ENABLE_LINE_INPUT) );
+    /*
+    Gets console input handle, store current console input mode and disable echo input and
+    line inpit for the console.
+    => Characters entered by the user will not be displayed on the console and the user will not be 
+    able to submit the input until the return key is pressed. 
+    */
 
 	while( ReadConsoleA( hIn, &ch, 1, &dwRead, NULL) && ch !=RETURN )
+    /*
+    enter a loop that reads input from the console until user presses the return key.
+    Each character is stored in the ch variable.
+    */
 	{
 		if(ch==BACKSPACE)
+        /*
+        if user press backspace -> remove the last character from password and update console display
+        */
 		{
 			if(password.length()!=0)
 			{
@@ -105,17 +125,21 @@ getpass(
 			}
 		}
 		else
+        /*
+        If it is not backspace -> code appends character to the password and update display with an asterisk (if Flag is on) 
+        */
 		{
 			password+=ch;
 			if(show_asterisk)
 				cout <<'*';
 		}
 	}
-	cout <<endl;
-	return password;
+	cout <<endl; //ends a loop and prints a newline character to the console
+	return password; //function returns a password as wstring object
 }
 
-
+/*
+modified function to set static password
 """
 // STATIC Password 
 wstring getpass(const char *prompt, bool show_asterisk=true)
@@ -124,11 +148,13 @@ wstring getpass(const char *prompt, bool show_asterisk=true)
     static wstring password = L"myPassword123";
 
     // If the show_asterisk flag is false, return the password as-is
+//   FUTURE: `modify to not return password on the console`
     if (!show_asterisk) {
         return password;
     }
 
     // If the show_asterisk flag is true, display the password with asterisks
+//   FUTURE: `modify to not return password on the console`
     wstring maskedPassword;
     for (size_t i = 0; i < password.length(); i++) {
         maskedPassword += L'*';
@@ -136,6 +162,7 @@ wstring getpass(const char *prompt, bool show_asterisk=true)
     return maskedPassword;
 }
 """
+*/
 
 BOOL WINAPI
 CertEnumSystemStoreCallback(
@@ -144,6 +171,9 @@ CertEnumSystemStoreCallback(
         PCERT_SYSTEM_STORE_INFO pStoreInfo,
         void* pvReserved,
         void* pvArg)
+/*
+
+*/
 {
     // Open a given certificate store
     HCERTSTORE hCertStore = CertOpenStore(
@@ -155,6 +185,8 @@ CertEnumSystemStoreCallback(
     if (NULL == hCertStore)
     {
         //fprintf(stderr, "Cannot open cert store. Skip it: %X\n", GetLastError());
+        //If certificate store canot be opened, skip it and return TRUE
+        //That means the function will continue iterate over the remaining certificate stores
         return TRUE;
     }
 
@@ -166,11 +198,13 @@ CertEnumSystemStoreCallback(
          NULL != pCertContext;
          pCertContext = CertEnumCertificatesInStore(hCertStore, pCertContext))
     {
+        //free memory allocated for previous certificates name 
         if (dwCertName)
         {
             free(dwCertName);
         }
 
+        //get the display name of current certificate
         if(!(cbSize = CertGetNameString(
             pCertContext,
             CERT_NAME_SIMPLE_DISPLAY_TYPE,
@@ -199,6 +233,7 @@ CertEnumSystemStoreCallback(
                     szOID_RSA,
                     strlen(szOID_RSA)))
         {
+            //If the certificate does not have RSA public key, skip it and continues next certificate
             fprintf(stderr, "Skip cert with NO rsa public key for %S\n", dwCertName);
             continue;
         }
@@ -213,6 +248,7 @@ CertEnumSystemStoreCallback(
                     &dwKeySpecSize))
         {
             //fprintf(stderr, "Skip cert with NO private key for %S: %x\n", dwCertName, GetLastError());
+            //if certificate private key is not available, skip it and ccontinu with next certificate
             continue;
         }
 
@@ -333,6 +369,7 @@ CertEnumSystemStoreCallback(
             fprintf(stdout, "\nSUCCESSFULLY get private key for \"%S\"\n", dwCertName );
 
             // Establish a temporary key container
+            //Create new private key container
             if (!CryptAcquireContext(
                         &hProvTemp,
                         NULL,
@@ -572,40 +609,53 @@ CertEnumSystemStoreCallback(
 
 BOOL WINAPI
 CertEnumSystemStoreLocationCallback(
-        LPCWSTR pvszStoreLocations,
-        DWORD dwFlags,
-        void* pvReserved,
-        void* pvArg)
+        LPCWSTR pvszStoreLocations, //name of the system store location being enumerated
+        DWORD dwFlags, //flags for enumerating the stores in the location
+        void* pvReserved, //reserved for future use
+        void* pvArg) //pointer to user-defined data
+/*
+Callback function that will be called for each system store location
+*/
 {
     // Enumerate all system stores in a given system store location
     CertEnumSystemStore(
-                dwFlags,
-                NULL,
-                NULL,
-                CertEnumSystemStoreCallback);
-
-    return TRUE;
+                dwFlags, //flags for enumerating stores in the location
+                NULL, //pointer to a certificate context. Parametr is ignored
+                NULL, //pointer to a name of system store. Parametr is ignored
+                CertEnumSystemStoreCallback); //pointer to a callback function to be called for eacg system store in tge location
+/*
+enumerate all the system soters in the given location.
+return TRUE to indicate that it has finished enumerating and continue enumerating system store locations
+*/
+    return TRUE; //return TRUE to continue enumerating system store locations
 }
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    // Initialize g_ulFileNumber
+    // Initialize g_ulFileNumber to 1
     g_ulFileNumber = 1;
+    //Check if the current process is 32bit proccess running on 64bit OS
     // Determine if we're a 32-bit process running on a 64-bit OS
-    g_fWow64Process = FALSE;
+    g_fWow64Process = FALSE; //default value is FALSE
     BOOL (WINAPI* IsWow64Process)(HANDLE, PBOOL) =
             (BOOL (WINAPI*)(HANDLE, PBOOL))GetProcAddress(
                 GetModuleHandle(L"kernel32.dll"), "IsWow64Process");
-    if (NULL != IsWow64Process)
+    /*
+    load function isWiw64Process from the kernel32.dll library
+    */
+    if (NULL != IsWow64Process) //if function exists
     {
         IsWow64Process( GetCurrentProcess(),
-                        &g_fWow64Process);
+                        &g_fWow64Process); //set g_fWow64Process to TRUE if running on a 64-bit OS
     }
     // Scan all system store locations
     CertEnumSystemStoreLocation(
                 0,
                 NULL,
                 CertEnumSystemStoreLocationCallback);
+    /*
+    Call the CertEnumSystemStoreLocation function to enumerate all system store locations
+    */
 
-    return 0;
+    return 0; //return 0 - success
 }
