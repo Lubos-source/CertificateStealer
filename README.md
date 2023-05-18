@@ -44,8 +44,16 @@ You can also find certificates in `%SystemDrive%\Documents and Settings\All User
 
 Because we want export private keys too, we can use `Mimikatz` for exporting certificates with private keys, but it is detected by antiviruses.
 
-So second option is to dump the private key from memory of running computer by ourself. There is one project on github which already did it [github](https://github.com/luipir/ExportNotExportablePrivateKey) + for corectly working we need to get [vcredist_x86_2010.exe](https://www.microsoft.com/en-us/download/details.aspx?id=26999) for compiling `exportrsa/Release/exportrsa.exe`.
+So second option is to dump the private key from memory of running computer by ourself. There is one project on github which already did it (<b>just WIN7 and lower</b>) [github](https://github.com/luipir/ExportNotExportablePrivateKey) + for corectly working we need to get [vcredist_x86_2010.exe](https://www.microsoft.com/en-us/download/details.aspx?id=26999) for compiling `exportrsa/Release/exportrsa.exe`.
 
-TESTED, worked + exported certificate is secured with password. - ideal state
++ TESTED, worked + exported certificate is secured with password. - ideal state
+
+❗❗❗
+
+Windows 10 version of Exporting non exportable certificate: [github](https://github.com/iSECPartners/jailbreak/tree/master)
+
+Need to check code and use just what we need + wrap for more functions.
+
++ Not TESTED yet
 
 FUTURE: Try to analyze code, modify and edit for our use.
