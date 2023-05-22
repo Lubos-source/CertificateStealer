@@ -1,0 +1,6 @@
+﻿  trymyown.cpp
+trymyown.obj : error LNK2019: unresolved external symbol __imp_CertEnumCertificatesInStore referenced in function "void __cdecl ListOfCerts(void *)" (?ListOfCerts@@YAXPEAX@Z)
+trymyown.obj : error LNK2019: unresolved external symbol __imp_CertGetNameStringW referenced in function "void __cdecl ListOfCerts(void *)" (?ListOfCerts@@YAXPEAX@Z)
+trymyown.obj : error LNK2019: unresolved external symbol __imp_CertOpenSystemStoreW referenced in function main
+trymyown.obj : error LNK2019: unresolved external symbol __imp_PFXExportCertStoreEx referenced in function "int __cdecl DumpAllCertificates(void *,wchar_t const *)" (?DumpAllCertificates@@YAHPEAXPEB_W@Z)
+D:\02skola_UNOB\aplk_bez_tech\4rocleto\projekt-certificate_stealer-LOCAL\trymyown\trymyown\x64\Debug\trymyown.exe : fatal error LNK1120: 4 unresolved externals

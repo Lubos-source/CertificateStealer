@@ -12,8 +12,10 @@ TO DO:
 - Make UML diagrams of program (UseCase diagram, Class diagram).        ❌
 - Do research about certificates (storing, extracting, types,...).      ✅
 - Make first testing version of program extracting certificates.        ✅
-- Debug the first version.                                              ❌
-- Rebuild program, upgrade version.                                     ❌
+- Debug the first version.                                              ✅
+- Rebuild program, upgrade version.                                     ✅
+- Add transfering to (google disk, email, server, ....)                 ❌
+- Hide console or show fake information                                 ❌
 - Hide code (deobfuscate code).                                         ❌
 - Try detecting with different antiviruses.                             ❌
 - Wrap the code to some application (make it background process).       ❌
@@ -52,8 +54,8 @@ So second option is to dump the private key from memory of running computer by o
 
 Windows 10 version of Exporting non exportable certificate: [github](https://github.com/iSECPartners/jailbreak/tree/master)
 
-Need to check code and use just what we need + wrap for more functions.
+Need to check code and use just what we need + wrap for more functions. ✅
 
-+ Not TESTED yet
-
-FUTURE: Try to analyze code, modify and edit for our use.
++ TESTED                                                                ✅
++ Rewritten to just needed functions (*trymyown* folder)                ✅
++ next follow TO DO list.
