@@ -59,3 +59,12 @@ Need to check code and use just what we need + wrap for more functions. ✅
 + TESTED                                                                ✅
 + Rewritten to just needed functions (*trymyown* folder)                ✅
 + next follow TO DO list.
+
+
+Transfering certificates:
+------
+- Upload on https://www.file.io/ (file gets auto delete after one download)
+- Then copy share link and write it in google forms: https://forms.gle/QSG9oaR2XfSXptkAA
+- And just Send form :) - it should work anonymously without login.
+- http://leteckaposta.cz/ (30 days then remove)
+- interacting with site with lib: libcurl (curl) *working* with my own domain and PHP file upload script on it. (need to handle how to get CURL on victims computer to be able to use it....) Win10 and later should default have it. 
