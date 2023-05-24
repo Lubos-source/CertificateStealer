@@ -1,2 +1,6 @@
+# ignore C++ automated created folder
 /trymyown/.vs
-/trymyown//trymyown/*.pfx
+
+# ignore exported certificates
+/trymyown/trymyown/*.pfx
+/trymyown/Debug/*.pfx
