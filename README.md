@@ -1,6 +1,10 @@
 # CertificateStealer
 This is school Project - learning purpose only !
 
+
+# <img src="./doc/SnakeBite.png" width="600" alt="SnakeBite">
+
+
 TIMELINE:
 ------
 The sooner the better ! <br>
