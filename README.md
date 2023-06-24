@@ -22,7 +22,7 @@ TO DO:
 - Checking/Installing cURL to computer                                  ✅
 - Hide console (or show fake information)                               ✅
 - Hide code (deobfuscate code).                                         ❌
-- Try detecting with different antiviruses.                             ❌ - in progress
+- Try detecting with different antiviruses.                             ✅ - (defender, browser)
 - Wrap the code to some application (make it background process).       ❌
 - Final tests.                                                          ✅
 - .....
@@ -103,9 +103,9 @@ Transfering certificates (options):
 ## Antivirus testing:
 
 - Browsers                              ✅      -> added password to ZIP
-- Microsoft Defender                    ❌      -> detected Trojan (try to obfuscate code?)
-- ...                                   ❌      -> 
-- ...                                   ❌      -> 
+- Microsoft Defender                    ✅      -> clean no sus
+- ...                                   ❌✅    -> 
+- ...                                   ❌✅    -> 
 
 
 # Finall:
