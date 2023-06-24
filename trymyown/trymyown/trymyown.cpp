@@ -262,7 +262,8 @@ int cURLini()
                 extractionSuccessful = true;
                 break;
             }
-        }*/
+        }
+        */
 
         if (!extractionSuccessful) {
             //std::cerr << "Extracting error!" << std::endl;

@@ -12,6 +12,10 @@ echo "The file ".  basename( $_FILES['fileToUpload']['name']). " has been upload
 echo "There was an error uploading the file, please try again!";
 }
 }else{
-	echo"Wrong password B!SH !";
+	echo"Wrong password !";
 }
 ?>
+
+
+
+

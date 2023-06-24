@@ -111,3 +111,11 @@ Transfering certificates (options):
 # Finall:
 
 - Finall executable application is built in folder `finall` 
+
+# Marking nonexportable key as exportable:
+
+result in documentation - PDF : site 18+
+
+- Get a pointer to a memory location that contains a private key.
+- Identify and modify specific bits in memory that affect the properties of the private key. These bits affect the exportability of the key.
+- Once the bits in memory have been modified, the key will be considered exportable and therefore can be exported from the application.
